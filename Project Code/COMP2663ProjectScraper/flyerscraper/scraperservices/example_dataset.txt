@@ -1,0 +1,442 @@
+{'Name': 'CHICKEN BREASTS SKINLESS BONE-IN OR CHICKEN WINGS', 'Info': '', 'Price': '$3.99 lb'}
+
+
+{'Name': "BEN'S BISTRO EXPRESS 240/250 G", 'Info': 'PRICE DROP‡', 'Price': '$3.00'}
+
+
+{'Name': 'CROSS RIB ROAST', 'Info': 'SAVE $4 LB', 'Price': '$5.99 lb'}
+
+
+{'Name': 'PC® OR BLUE MENU ENTRÉES', 'Info 1': '275-365 G', 'Info 2': '', 'Price': '$2.99'}
+
+
+{'Name': 'PORK BACK RIBS', 'Info 1': "2'S", 'Info 2': '', 'Price': '$4.00 lb'}
+
+
+{'Name': 'PEPSI SOFT DRINKS', 'Info 1': '6X710 ML', 'Info 2': 'PRICE DROP‡', 'Price': '$4.00'}
+
+
+{'Name': 'PC® PACIFIC LARGE WHITE SHRIMP', 'Info 1': '400 G', 'Info 2': 'SAVE $2', 'Price': '$7.99'}
+
+
+{'Name': 'KASHI CEREAL', 'Info 1': '340-460 G', 'Info 2': '', 'Price': '$5'}
+
+
+{'Name': 'NELSON MILKSHAKES', 'Info 1': '310 ML', 'Info 2': '', 'Price': '$1.00'}
+
+
+{'Name': 'CHEEMO PEROGIES', 'Info 1': '330 G', 'Info 2': '', 'Price': '$1'}
+
+
+{'Name': 'NELSON MILKSHAKES', 'Info 1': '310 ML', 'Info 2': '', 'Price': '$1.00'}
+
+
+{'Name': 'PC® TEA OR LEMONADE', 'Info 1': '1.54 L', 'Info 2': '', 'Price': '$2.00'}
+
+
+{'Name': 'PC® TEA OR LEMONADE', 'Info 1': '1.54 L', 'Info 2': '', 'Price': '$2.00'}
+
+
+{'Name': 'PALMOLIVE DISH SOAP 591/828 ML', 'Info': '', 'Price': '$2.00'}
+
+
+{'Name': 'PALMOLIVE DISH SOAP 591/828 ML', 'Info': '', 'Price': '$2.00'}
+
+
+{'Name': 'AVOCADO', 'Info': '', 'Price': '$2'}
+
+
+{'Name': 'CLASSICO SAUCE', 'Info 1': '600/650 ML', 'Info 2': '', 'Price': '$3'}
+
+
+{'Name': 'GREENHOUSE BEEFSTEAK TOMATOES OR GREEN ZUCCHINI', 'Info': '', 'Price': '$3'}
+
+
+{'Name': 'CASHMERE BATHROOM TISSUE', 'Info 1': '8=16 ROLLS OR SCOTTIES FACIAL TISSUE', 'Info 2': "6'S", 'Info 3': '', 'Price': '$5'}
+
+
+{'Name': 'BLUEBERRIES', 'Info 1': 'PINT', 'Info 2': '', 'Price': '$4'}
+
+
+{'Name': 'DR. OETKER PIZZA 320-410 G OR PC* THIN & CRISPY', 'Info 1': 'LOADS OF OR FLATBREAD PIZZA 330-455 G', 'Info 2': '', 'Price': '$4'}
+
+
+{'Name': 'BASSÉ MIX NUTS', 'Info 1': '415-600 G', 'Info 2': 'Members save $2', 'Price': 'Members Only Price $5'}
+
+
+{'Name': 'NO NAME® SPICES', 'Info 1': '15-250 G', 'Info 2': 'PC Optimum GET 500 pts = 50¢ Value', 'Price': '$2.99'}
+
+
+{'Name': 'KRAFT DINNER ORIGINAL', 'Info 1': '200 G', 'Info 2': 'SAVE 97¢ WHEN YOU BUY 3', 'Price': '3/ $5 less than 3 $1.99 ea.'}
+
+
+{'Name': 'PC® ORANGE JUICE', 'Info 1': '2.5 L OR OIKOS TUBS 650-750 G', 'Info 2': 'SAVE UP TO $1.50', 'Price': '$5.99'}
+
+
+{'Name': 'BECEL MARGARINE', 'Info 1': '637/850 G', 'Info 2': 'SAVE $2.50', 'Price': '$6.99'}
+
+
+{'Name': 'BLACK DIAMOND CHEESE BARS', 'Info 1': '400 G', 'Info 2': 'SHREDS', 'Info 3': '300-320 G OR PC® CHEESE SHREDS', 'Info 4': '250-320 G', 'Info 5': '', 'Price': '$5'}
+
+
+{'Name': 'INTERNATIONAL DELIGHT COFFEE WHITENER OR COLD FOAM', 'Info 1': '396-946 ML', 'Info 2': '', 'Price': '$5.99'}
+
+
+{'Name': "CHAPMAN'S SUPER NOVELTIES CHAPMAN'S SUPER NOVELTIES 6-20'S OR PREMIUM ICE CREAM 2 L", 'Info': '', 'Price': '$5.99'}
+
+
+{'Name': 'NESTLÉ QUALITY STREET TIN', 'Info 1': '650 G', 'Info 2': '', 'Price': '$19.99'}
+
+
+{'Name': 'CATELLI PASTA', 'Info 1': '454/500 G', 'Info 2': 'SAVE 98¢ WHEN YOU BUY 2', 'Price': '2/ $5 less than 2 $2.99 ea.'}
+
+
+{'Name': 'CHRISTIE RITZ', 'Info 1': 'WHEAT THINS OR TRISCUIT CRACKERS', 'Info 2': '175-454 G', 'Info 3': 'SAVE $1.08 WHEN YOU BUY 2', 'Price': '2/ $7.50 less than 2 $4.29 ea.'}
+
+
+{'Name': 'HUMPTY DUMPTY OR OLD DUTCH CHEESE FLAVOURED SNACKS', 'Info 1': 'PARTY MIXES OR OLD DUTCH POTATO CHIPS', 'Info 2': '200-290 G', 'Info 3': 'SAVE 98¢ WHEN YOU BUY 2', 'Info 4': 'PC Optimum 1,000 pts when you buy 2', 'Info 5': '$1 Value', 'Price': '2/ $8 less than 2 $4.49 ea.'}
+
+
+{'Name': 'PILLSBURY PIZZA POPS OR BITES', 'Info 1': '693-760 G', 'Info 2': 'SAVE $1', 'Price': '$5.99'}
+
+
+{'Name': 'AYLMER TOMATOES ORIGINAL OR ACCENTS', 'Info 1': '540/796 ML', 'Info 2': 'SAVE $1', 'Price': '$1.99'}
+
+
+{'Name': "MOTT'S CLAMATO JUICE OR OCEAN SPRAY 100% JUICE BLEND OR COCKTAIL", 'Info 1': '1.77-1.89 L', 'Info 2': 'SAVE UP TO $1.50', 'Price': '$3.99'}
+
+
+{'Name': 'SPONGETOWELS PAPER TOWELS', 'Info 1': '6 ROLLS', 'Info 2': 'SAVE $4.99', 'Price': '$7'}
+
+
+{'Name': 'PC® YARD WASTE', 'Info 1': "5'S", 'Info 2': 'SAVE 98¢ WHEN YOU BUY 2', 'Info 3': 'GET PC Optimum 1,500 pts when you buy 2. $1.50 Value', 'Price': '2/ $8 less than 2 $4.49 ea.'}
+
+
+{'Name': 'DOWNY OR GAIN FABRIC SOFTENER', 'Info 1': 'BOUNCE', 'Info 2': 'DOWNY OR GAIN DRYER SHEETS', 'Info 3': 'DOWNY', 'Info 4': 'GAIN OR IVORY BEADS OR DOWNY RINSE', 'Info 5': 'GET PC Optimum 15,000 pts for every $30* spent. =$15 Value', 'Price': ''}
+
+
+{'Name': 'FRESH FRUITS OR VEGETABLES', 'Info': '5,000 points When you spend $30 or more on fresh fruits or vegetables', 'Price': ''}
+
+
+{'Name': 'FRESH POULTRY OR PORK', 'Info': 'PC Optimum 8,000 points When you spend $50 or more on fresh poultry or pork', 'Price': ''}
+
+
+{'Name': 'PC® BBQ ROTISSERIE CHICKEN', 'Info 1': 'FULLY COOKED', 'Info 2': '900 G-1 KG', 'Info 3': 'PC Optimum 3,000 points', 'Price': ''}
+
+
+{'Name': 'PC® THE DECADENT® CHOCOLATE CHIP COOKIE', 'Info 1': '280/300 G', 'Info 2': 'PC Optimum 1,000 points When you buy 2', 'Price': ''}
+
+
+{'Name': 'PC® BBQ PORK BACK RIBS SOMKIN STAMPEDE™', 'Info 1': '680 G', 'Info 2': 'PC Optimum 3,000 points', 'Price': ''}
+
+
+{'Name': "FARMER'S MARKET™ MUFFINS", 'Info 1': "6'S", 'Info 2': 'PC Optimum 1,500 points', 'Price': ''}
+
+
+{'Name': 'PRINGLES MINGLES', 'Info 1': '155 G OR POTATO CHIPS', 'Info 2': '148-203 G', 'Info 3': '$1 off', 'Price': ''}
+
+
+{'Name': 'NO NAME® CANOLA OR VEGETABLE OIL 3 L', 'Info': 'PC Optimum 1,000 points', 'Price': ''}
+
+
+{'Name': 'Q-TIPS COTTON SWABS', 'Info 1': "500'S", 'Info 2': '$1.25 off', 'Price': ''}
+
+
+{'Name': "CANADA FARMER'S MARKET™ MINI CARROTS", 'Info 1': '2 LB', 'Info 2': '', 'Price': '$5.50'}
+
+
+{'Name': 'LEEKS', 'Info': '', 'Price': '$5'}
+
+
+{'Name': 'ROMAINE HEARTS', 'Info 1': "3'S", 'Info 2': '', 'Price': '$6'}
+
+
+{'Name': 'LARGE CAULIFLOWER EACH PRODUCT OF MEXICO OR U.S.A.', 'Info 1': "NO. 1 GRADE OR FARMER'S MARKET™ GREENHOUSE PEPPERS 3'S PRODUCT OF CANADA OR MEXICO", 'Info 2': '', 'Price': '$6.00'}
+
+
+{'Name': 'PLANTAIN', 'Info': '', 'Price': '$1.50 lb'}
+
+
+{'Name': 'ORGANIC RASPBERRIES', 'Info 1': '6 OZ OR PC® SWEET CARNIVAL GRAPES', 'Info 2': '', 'Price': '$6 ea./lb'}
+
+
+{'Name': "FARMER'S MARKET™ MANDARINS", 'Info 1': '2 LB', 'Info 2': '', 'Price': '$6'}
+
+
+{'Name': 'PLUMCOT', 'Info': '', 'Price': '$4 lb'}
+
+
+{'Name': "MANN'S SNAP OR SNOW PEAS", 'Info 1': '170/227 G', 'Info 2': '', 'Price': '2/ $9.00 less than 2 $5.00 ea.'}
+
+
+{'Name': 'GREENHOUSE ORGANIC COLD-PRESSED JUICE OR BREAKFAST SHAKES', 'Info 1': '300 ML', 'Info 2': '', 'Price': '2/ $13.00 less than 2 $7.00 ea.'}
+
+
+{'Name': 'LARGE VEGETABLE OR FRUIT PLATTER', 'Info 1': '1.58-2.2 KG', 'Info 2': 'PC Optimum 5,000 pts. $5 Value', 'Price': '$24.00 - $25.00'}
+
+
+{'Name': 'STRIPLOIN GRILLING STEAK', 'Info': '', 'Price': '$17.49 lb'}
+
+
+{'Name': "PC® CHICKEN DRUMSTICKS 8'S OR THIGHS", 'Info': '', 'Price': '$12.00'}
+
+
+{'Name': 'PC® THE ULTIMATE PORK RIB ROAST', 'Info 1': '1.1 KG', 'Info 2': '', 'Price': '$15'}
+
+
+{'Name': 'BEEF STIR FRY STRIPS', 'Info 1': '250 G', 'Info 2': '', 'Price': '$7.00'}
+
+
+{'Name': 'ULTIMATE DINNER OR BREAKFAST SAUSAGE', 'Info 1': '375/500 G', 'Info 2': '', 'Price': '$6'}
+
+
+{'Name': 'PC® WHOLE CHICKEN', 'Info': '', 'Price': '$4.29 lb'}
+
+
+{'Name': 'NO NAME® BACON', 'Info 1': '500 G 500 G', 'Info 2': '', 'Price': '$6.00'}
+
+
+{'Name': 'PC® BBQ PORK BACK RIBS 680 G OR KOREAN BEEF SHORT RIBS 500 G', 'Info': '', 'Price': '$15.00'}
+
+
+{'Name': 'PC® WINGS', 'Info 1': '700-907 G', 'Info 2': '', 'Price': '$17'}
+
+
+{'Name': "SEAFOOD CHOWDER MIX 8.99 LB 19.82/KG OR WILLY KRAUCH'S SMOKED ATLANTIC SALMON", 'Info 1': '115 G', 'Info 2': '', 'Price': '$8.99 lb/ea.'}
+
+
+{'Name': 'SEAQUEST® CRAB OR LOBSTER FLAVOURED POLLOCK FLAKES OR CHUNKS', 'Info 1': '227 G', 'Info 2': '', 'Price': '$2.99'}
+
+
+{'Name': 'PC® BATTERED WILD COD BITES', 'Info 1': '454 G OR WILD YELLOWFIN TUNA STEAKS', 'Info 2': '280 G', 'Info 3': '', 'Price': '$9.99'}
+
+
+{'Name': 'WATERVIEW MARKET CRISPY', 'Info 1': '300 G', 'Info 2': '', 'Price': '$5.49'}
+
+
+{'Name': 'ACE BAKERY BISTRO LOAF', 'Info 1': '595 G OR ARTISAN ROLLS', 'Info 2': "6-10'S", 'Info 3': 'PC Optimum 3,000 pts when you buy 2. $3 Value', 'Price': '$4.99 - $6.99'}
+
+
+{'Name': 'GARLIC LOAF', 'Info 1': '30 G', 'Info 2': '', 'Price': '$3.49'}
+
+
+{'Name': '8 INCH PIES', 'Info 1': '635-750 G', 'Info 2': 'PC Optimum 1,000 pts. $1 Value', 'Price': '$5.99'}
+
+
+{'Name': 'PREMIUM MUFFINS', 'Info 1': "4'S", 'Info 2': '', 'Price': '$5'}
+
+
+{'Name': "D'ITALIANO BREAD OR BUNS", 'Info': '', 'Price': '2/ $6.50 less than 2 $3.79 ea.'}
+
+
+{'Name': 'SILVER HILLS SPROUTED BREAD OR LA FOURNEE DOREE BRIOCHE SLICED BREAD', 'Info 1': '500 G', 'Info 2': '', 'Price': '$5.99'}
+
+
+{'Name': 'CHICKEN', 'Info 1': 'FAJITA', 'Info 2': 'OR SOUVLAKI CHICKEN TACO TRAYS', 'Info 3': '1-1.1 KG', 'Info 4': 'PC Optimum 5,000 pts. $5 Value', 'Price': '$20'}
+
+
+{'Name': 'BALDERSON CHEDDAR', 'Info 1': '250-375 G', 'Info 2': 'PC Optimum 1,000 pts', 'Info 3': '$1 Value', 'Price': '$7.99'}
+
+
+{'Name': 'CLASSIC ITALIAN STYLE OR PULLED PORK MINI SLIDER BUNS', 'Info 1': "12'S", 'Info 2': '', 'Price': '$16'}
+
+
+{'Name': 'SCHNEIDERS PEPPERETTES', 'Info 1': '250-375 G', 'Info 2': 'Members save $4', 'Price': '$7.99'}
+
+
+{'Name': '12 PIECE PRE-PACK SAUCED WINGS WITH CELERY AND CARROTS', 'Info 1': '728 G', 'Info 2': 'PC Optimum 5,000 pts when you buy 2. $5 Value', 'Price': '$15'}
+
+
+{'Name': 'CHRIS BROTHERS SHAVED DELI MEAT', 'Info 1': '150/175 G', 'Info 2': '', 'Price': '$5.00'}
+
+
+{'Name': 'PARTY PLATTER', 'Info 1': '696 G-1.15 KG', 'Info 2': 'PC Optimum 5,000 pts. $5 Value', 'Price': '$25'}
+
+
+{'Name': 'SIGNATURE GIFTING BOUQUET', 'Info': '', 'Price': '$24.00'}
+
+
+{'Name': 'INTERMEDIATE ROSE', 'Info 1': 'BUNCH', 'Info 2': '', 'Price': '$10'}
+
+
+{'Name': '6 INCH POINSETTIA', 'Info': '', 'Price': '$12'}
+
+
+{'Name': 'AMARYLLIS GARDEN', 'Info': '', 'Price': '$22.00'}
+
+
+{'Name': 'PC BLUE MENU OR FREE & CLEAR SPARKLING WATER', 'Info 1': '1L', 'Info 2': '', 'Price': '$1.00'}
+
+
+{'Name': 'NO NAME® INSTANT NOODLE SOUP CUPS', 'Info 1': '65 G', 'Info 2': '', 'Price': '$1'}
+
+
+{'Name': 'NO NAME® RICE CRACKERS', 'Info 1': '100 G', 'Info 2': '', 'Price': '$1'}
+
+
+{'Name': 'ORANGE NAVEL', 'Info': '', 'Price': '$2.00'}
+
+
+{'Name': 'SWEET POTATOES', 'Info': '', 'Price': '$2'}
+
+
+{'Name': 'NO NAME® ENGLISH MUFFINS', 'Info 1': "6'S", 'Info 2': '', 'Price': '$2.00'}
+
+
+{'Name': "I CAN'T BELIEVE IT'S NOT BUTTER! MARGARINE", 'Info 1': '427 G', 'Info 2': '', 'Price': '$2.00'}
+
+
+{'Name': "BUSH'S BAKED BEANS", 'Info 1': '398 ML', 'Info 2': '', 'Price': '$2.00'}
+
+
+{'Name': 'RAVINE MUSHROOMS PIECES AND STEMS', 'Info 1': '284 ML', 'Info 2': '', 'Price': '2/ $3 less than 2 $1.75 ea.'}
+
+
+{'Name': 'NO NAME® CANNED VEGETABLES', 'Info 1': '341/398 ML', 'Info 2': '', 'Price': '2/ $3 less than 2 $1.79 ea.'}
+
+
+{'Name': 'DARE BEAR PAWS COOKIES', 'Info 1': '168-240 G', 'Info 2': '', 'Price': '$3'}
+
+
+{'Name': 'QUAKER CRISPY MINIS OR LARGE RICE CAKES', 'Info 1': '90-173 G', 'Info 2': '', 'Price': '$3.00'}
+
+
+{'Name': 'GREENHOUSE TOMATOES ON THE VINE', 'Info': '', 'Price': '$3'}
+
+
+{'Name': 'KNORR BOUILLON CUBES', 'Info 1': '39-63 G', 'Info 2': '', 'Price': '$3'}
+
+
+{'Name': 'HARIBO GUMMY CANDY', 'Info 1': '170-175 G', 'Info 2': '', 'Price': '$3'}
+
+
+{'Name': "BEN'S BISTRO EXPRESS", 'Info 1': '240/250 G', 'Info 2': '', 'Price': '$3'}
+
+
+{'Name': 'PC® APPLE SAUCES', 'Info 1': '6X100 ML', 'Info 2': '', 'Price': '$3'}
+
+
+{'Name': 'QUAKER DIPPS OR CHEWY GRANOLA BARS', 'Info 1': '120-156 G', 'Info 2': '', 'Price': '$3'}
+
+
+{'Name': 'CANTALOUPES', 'Info': '', 'Price': '$4'}
+
+
+{'Name': 'AVOCADO BAG', 'Info 1': "5'S", 'Info 2': '', 'Price': '$4.00'}
+
+
+{'Name': 'RASPBERRIES', 'Info 1': '6 OZ', 'Info 2': '', 'Price': '$4'}
+
+
+{'Name': 'NO NAME® CANNED FRUIT', 'Info 1': '796 ML', 'Info 2': '', 'Price': '$4'}
+
+
+{'Name': 'VH SAUCES', 'Info 1': '341/355 ML', 'Info 2': '', 'Price': '$4'}
+
+
+{'Name': 'PC® THE DECADENT® CHOCOLATE CHIP COOKIE', 'Info 1': '280/300 G', 'Info 2': '', 'Price': '$4'}
+
+
+{'Name': 'HEINZ KETCHUP', 'Info 1': '375 ML', 'Info 2': '', 'Price': '$4'}
+
+
+{'Name': "FRANK'S RED HOT OR THICK SAUCE", 'Info 1': '354 ML', 'Info 2': '', 'Price': '$4'}
+
+
+{'Name': "KELLOGG'S EGGO WAFFLES", 'Info 1': "8'S", 'Info 2': '', 'Price': '$4'}
+
+
+{'Name': 'PILLSBURY TOASTER STRUDEL', 'Info 1': '326 G OR SCRAMBLES', 'Info 2': '204 G', 'Info 3': '', 'Price': '$4'}
+
+
+{'Name': 'BARILLA PASTA', 'Info 1': '340/410 G', 'Info 2': '', 'Price': '2/ $5 less than 2 $2.99 ea.'}
+
+
+{'Name': "KIMBERLY'S CUPCAKES", 'Info 1': '315-318 G', 'Info 2': '', 'Price': '$5.00'}
+
+
+{'Name': "FARMER'S MARKET™ BUTTER CROISSANTS OR CROISSANT BUNS", 'Info 1': '270/300 G', 'Info 2': '', 'Price': '$5.00'}
+
+
+{'Name': 'PC® GNOCCHI OR RISOTTO', 'Info 1': '350-400 G OR PC ASIAN ENTRÉES OR SOUPS', 'Info 2': '300 G', 'Info 3': '', 'Price': '$5'}
+
+
+{'Name': 'SCHNEIDERS BREAKFAST SANDWICHES OR EGG BITES', 'Info 1': '204-288 G', 'Info 2': '', 'Price': '$5'}
+
+
+{'Name': "HELLMANN'S MAYONNAISE", 'Info 1': '340/445 ML', 'Info 2': '', 'Price': '$5.00'}
+
+
+{'Name': 'ENERGIZER BATTERIES', 'Info': '', 'Price': '$5'}
+
+
+{'Name': 'YOPLAIT TUBE', 'Info 1': '8X56 G OR MINIGO YOGURT', 'Info 2': '6X60 G', 'Info 3': '', 'Price': '$3.69'}
+
+
+{'Name': 'NESTLE CHOCOLATE TABLETS', 'Info 1': '90-120 G', 'Info 2': '', 'Price': '2/ $5 less than 2 $2.99 ea.'}
+
+
+{'Name': "SIGGI'S", 'Info 1': '4X100 G', 'Info 2': '', 'Price': '$3.99'}
+
+
+{'Name': "SIGGI'S SKYR YOGURT", 'Info 1': '650/750 G', 'Info 2': '', 'Price': '$6.99'}
+
+
+{'Name': 'AMOOZA', 'Info 1': '228 G OR CRACKER BARREL CHEESE SNACKS,168 G', 'Info 2': '', 'Price': '$5.99'}
+
+
+{'Name': 'CRACKER BARREL NATURAL CHEESE SLICES', 'Info 1': '220/240 G', 'Info 2': '', 'Price': '$5.99'}
+
+
+{'Name': 'PC® NORTHERN SPANISH-STYLE BASQUE CHEESECAKE', 'Info 1': '600 G', 'Info 2': 'PC Optimum 3,000 pts. $3 Value', 'Price': '$10'}
+
+
+{'Name': 'PC® HOLIDAY FEAST TURKEY (AND FIXINS) PIE', 'Info 1': '800 G', 'Info 2': 'PC Optimum 3,000 pts', 'Info 3': '$3 Value', 'Price': '$15'}
+
+
+{'Name': 'PC® MOZZARELLA CHEESE STICKS', 'Info 1': '454 G', 'Info 2': '', 'Price': '$10'}
+
+
+{'Name': 'PC® AHI TUNA TATAKI', 'Info 1': '130 G', 'Info 2': '', 'Price': '$13'}
+
+
+{'Name': 'PC® THAI BASIL SHRIMP THAI BASIL SHRIMP', 'Info 1': '294 G', 'Info 2': '', 'Price': '$11'}
+
+
+{'Name': 'PC® PORK SAUSAGE ROLLS', 'Info 1': '500 G', 'Info 2': '', 'Price': '$10'}
+
+
+{'Name': 'PC® HALLOOM CHEESE STICKS', 'Info 1': '300 G', 'Info 2': '', 'Price': '$15'}
+
+
+{'Name': 'PC® FRENCH ONION SOUP STRAWS', 'Info 1': '240 G', 'Info 2': '', 'Price': '$9.00'}
+
+
+{'Name': 'PC® SALSA CON QUESO', 'Info 1': '400 ML', 'Info 2': '', 'Price': '$3.99'}
+
+
+{'Name': 'PC® ORGANICS BALSAMIC OR CAESAR DRESSING', 'Info 1': '350 ML', 'Info 2': '', 'Price': '$5.99'}
+
+
+{'Name': 'PC® SEAFOOD SAUCE', 'Info 1': '250 ML', 'Info 2': '', 'Price': '$3.49'}
+
+
+{'Name': 'PC® SCALLOPED CRACKERS', 'Info 1': '185 G', 'Info 2': '', 'Price': '2/ $5.00 less than 2 $2.99 ea.'}
+
+
+{'Name': "PC® M'AQUA COCKTAIL FLAVOURED SPARKLING WATER", 'Info 1': '6X355 ML', 'Info 2': '', 'Price': '$4.50'}
+
+
+{'Name': 'PC® FRIZZAN-TÉ SPARKLING TEA BEVERAGE POMEGRANATE HIBISCUS WHITE TEA OR PEACH GINGER GREEN TEA FLAVOUR', 'Info 1': '750 ML', 'Info 2': '', 'Price': '$7.50'}
+
+
+{'Name': 'PC® DEALCOHOLIZED WINE', 'Info 1': '750 ML', 'Info 2': '', 'Price': '$7.50'}
+
+
+{'Name': 'PC® OR BLUE MENU® COCKTAILS', 'Info 1': '1.89 L', 'Info 2': '', 'Price': '$3.50'}
+
+
+{'Name': 'PC MINI CANS', 'Info 1': '6X222 ML', 'Info 2': '', 'Price': '2/ $6 less than 2 $3.49 ea.'}
+
+
+{'Name': 'PC® CRAFT BREWED 0.5% LOW-ALCOHOL BEER', 'Info 1': '4X355 ML', 'Info 2': '', 'Price': '$6'}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dealStyle.css">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Local Deals</title>
+</head>
+<body>
+    
+    <header>
+        <header class="headerContainer">
+            <h1 class="title">Deal Breaker</h1>
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Index.html" aria-label="Home"><i class="fa-solid fa-house fa-2x"></i></a></li>
+                    <li><a href="#" aria-label="Location"><i class="fa-solid fa-location-dot fa-2x"></i></a></li>
+                    <li><a href="Login.html" aria-label="account"><i class="fa-solid fa-user fa-2x"></i></a></li>
+                    
+                </ul>
+            </nav>
+    </header>
+
+    
+    <main>
+
+        <div class = "savedDeals">
+            <button id = "openSaves" class = "openSaves">☰ Saved Deals</button>
+
+            <div id = "sideDrawer" class = "drawer">
+                <div class = textContent>
+                    <button id = "close" class = "close">✖</button>
+                    <h2>Saved Deals</h2>
+                </div>
+                
+                <div id = "SavedDealsList">
+                    <!-- deals that user saves will end up here -->
+                </div>
+
+               
+            </div>
+
+         
+        </div>
+
+        
+        <section class="filters">
+            <label for="category">Select Store:</label>
+            <select id="category">
+                <option value="#">Independent</option>
+                
+                <!-- Add more categories -->
+            </select>
+        </section>
+
+       
+        <section class="dealsGrid" id = "dealsGrid">
+            <div class="dealCard">
+                <h3>50% off at Store A</h3>
+                <p class="dealDescription">Get half off your purchase at Store A this weekend.</p>
+                <p class="dealPrice">price</p>
+                <button class="addDealBtn">Save Deal</button>
+            </div>
+        
+            <!-- More deal cards here above is just an example deal -->
+        </section>
+
+        
+        <section class="loadMore">
+            <button id="loadMoreBtn">Load More Deals</button>
+        </section>
+    </main>
+
+   
+    <script src = "dealsPage.js"></script>
+</body>
+</html>

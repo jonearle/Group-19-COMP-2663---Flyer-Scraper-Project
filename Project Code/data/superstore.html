@@ -1,0 +1,885 @@
+<html lang="en-CA"><head>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Storefront Page</title>
+          
+          <link href="https://aq.flippenterprise.net/a/170ed2a188b487d2154f8268aaa30435ae54b89f/lib/fidgets.css" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Roboto:700,500,400,400i,300&amp;subset=latin-ext&amp;display=swap" rel="stylesheet">
+        <style></style><link rel="stylesheet" type="text/css" href="https://aq.flippenterprise.net/a/170ed2a188b487d2154f8268aaa30435ae54b89f/lib/393.css"><style>sfml-storefront {
+  display: block;
+  background-color: #fff;
+  position: relative;
+}
+
+sfml-storefront,
+sfml-textview,
+sfml-scrollview,
+sfml-linear-layout,
+sfml-collapsible-layout,
+sfml-flexbox,
+sfml-item-atom,
+sfml-url-image,
+sfml-flyer-image {
+  box-sizing: border-box;
+}
+
+sfml-textview {
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+sfml-scrollview {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+sfml-scrollview[orientation=horizontal] {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+sfml-linear-layout {
+  display: block;
+  position: relative;
+}
+
+sfml-linear-layout[orientation=horizontal] {
+  white-space: nowrap;
+}
+
+sfml-linear-layout[orientation=horizontal] > .nf0EULqBSbtAMgaE5LT6 > * {
+  display: inline-block;
+}
+
+sfml-collapsible-layout {
+  display: block;
+  position: relative;
+  font-family: sans-serif;
+}
+
+sfml-collapsible-layout[orientation=horizontal] {
+  white-space: nowrap;
+}
+
+sfml-collapsible-layout[orientation=horizontal] > .nf0EULqBSbtAMgaE5LT6 > * {
+  display: inline-block;
+}
+
+sfml-collapsible-layout .MN90l1z_dGwipCWb2712 {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+sfml-collapsible-layout .tN3yq56RMuAXgIOPVWxK {
+  font-size: 12px;
+  background-color: #eee;
+  border-radius: 3px;
+  margin: 5px 0px;
+  padding: 5px 10px;
+}
+
+sfml-collapsible-layout .IbaM0TU2KgjZBKiBZpa5 {
+  width: 32px;
+  height: 32px;
+}
+
+sfml-collapsible-layout .IbaM0TU2KgjZBKiBZpa5 img {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+sfml-collapsible-layout .PiEo45RyUhpZu0H64FtS {
+  color: #0055ff;
+}
+
+sfml-flexbox {
+  display: flex;
+  position: relative;
+}
+
+sfml-flexbox[orientation=horizontal] {
+  flex-direction: row
+}
+
+sfml-flexbox[orientation=vertical] {
+  flex-direction: column
+}
+
+sfml-item-atom {
+  cursor: pointer;
+  position: relative;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+sfml-item-atom[bordered] {
+  box-shadow: none;
+}
+
+sfml-item-atom .nfveexNuTWmT5VtxhUfU {
+  position: relative;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 5px;
+  height: 105px;
+  color: #5C5C5C;
+  padding: 5px 5px;
+  overflow: hidden;
+}
+
+sfml-item-atom .ruXYWYiKD8v1EC_XfNFG {
+  width: 100%;
+  font-size: 12px;
+  max-height: 40px;
+  overflow: hidden;
+}
+
+sfml-item-atom .lyVCJKA7_Tx5i3TIWl8v {
+  font-size: 12px;
+}
+
+sfml-item-atom .iLowuNoYajBB_Cifr_VR {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 10px;
+  max-height: 26px;
+  overflow: hidden;
+  color: #FF0000;
+}
+
+sfml-item-atom .ynq_8zejeTfAma7LlaAZ {
+  display: inline;
+  font-size: 10px;
+  color: #aaa;
+}
+
+sfml-item-atom .QC9fiJk1e8prtEke9lWo {
+  display: inline;
+  font-size: 16px;
+  color: #000000;
+}
+
+sfml-item-atom .wN6gJWqnIDeNBAfZihCf {
+  display: inline;
+  font-size: 10px;
+  color: #aaa;
+}
+
+sfml-item-atom .SxnQNrDk2oETMSmppdhA {
+  display: block;
+  width: 100%;
+  height: 12px;
+  bottom: 40px;
+  font-size: 10px;
+}
+
+sfml-url-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+sfml-url-image .gwshd8JWsV8mjkK4DW7G {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+sfml-flyer-image-a {
+  position: absolute;
+  display: none;
+}
+
+sfml-flyer-image-a a {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+sfml-flyer-image {
+  position: relative;
+  display: block;
+}
+
+sfml-flyer-image canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+sfml-flyer-image div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+sfml-flyer-image button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+sfml-flyer-image button:active,
+sfml-flyer-image button:focus {
+  outline: none;
+}
+
+sfml-wayfinder {
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  width: 100%;
+  bottom: 0px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+sfml-wayfinder .DrX2Bpzqp_pOAcQsmglv {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: none;
+  pointer-events: all;
+}
+
+sfml-wayfinder .ZGQb3A1uO74d_FZldAMM {
+  position: absolute;
+  display: block;
+  right: 0px;
+  top: 35px;
+  bottom: 35px;
+  width: 30px;
+  pointer-events: all;
+}
+
+sfml-wayfinder .sFpEMKaYarvpAP4lJ4og {
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.95);
+  right: -4px;
+  box-shadow: 2px 2px 8px #888;
+  z-index: 2;
+  margin-top: -15px;
+  pointer-events: all;
+}
+
+sfml-wayfinder .sFpEMKaYarvpAP4lJ4og svg {
+  pointer-events: none;
+}
+
+sfml-wayfinder sfml-wayfinder-list {
+  display: block;
+  position: relative;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: sans-serif;
+  background-color: rgba(255,255,255, 0.95);
+  box-shadow: 2px 2px 8px #888;
+  margin-right: 40px;
+  margin-left: auto;
+  width: fit-content;
+  height: fit-content;
+  z-index: 2;
+  pointer-events: all;
+}
+
+sfml-wayfinder-category {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+sfml-wayfinder-category .BAHNQgRZlLgwJoKpaF2y {
+  display: inline;
+}
+
+sfml-wayfinder-category .YDWvhw2szaf3ieHgvSJm {
+  display: inline;
+}
+
+sfml-wayfinder-category[selected=true] {
+  color: #fff;
+  background-color: #428ce8;
+}
+
+.S0bD_1fORRNLlrfx9KB0 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9zdHlsZXMvc2ZtbC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxjQUFjO0VBQ2Qsc0JBQXNCO0VBQ3RCLGtCQUFrQjtBQUNwQjs7QUFFQTs7Ozs7Ozs7O0VBU0Usc0JBQXNCO0FBQ3hCOztBQUVBO0VBQ0UsY0FBYztFQUNkLHVCQUF1QjtFQUN2QixlQUFlO0VBQ2YsbUJBQW1CO0VBQ25CLGdCQUFnQjtFQUNoQix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxjQUFjO0VBQ2Qsa0JBQWtCO0VBQ2xCLHVCQUF1QjtBQUN6Qjs7QUFFQTtFQUNFLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2YsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSxlQUFlO0VBQ2Ysc0JBQXNCO0VBQ3RCLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2YsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UsV0FBVztFQUNYLFlBQVk7QUFDZDs7QUFFQTtFQUNFLFdBQVc7RUFDWCxZQUFZO0VBQ1osc0JBQXNCO0VBQ3RCLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxhQUFhO0VBQ2Isa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0U7QUFDRjs7QUFFQTtFQUNFO0FBQ0Y7O0FBRUE7RUFDRSxlQUFlO0VBQ2Ysa0JBQWtCO0VBQ2xCLHVCQUF1QjtFQUN2QixzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIscUNBQXFDO0VBQ3JDLFdBQVc7RUFDWCxhQUFhO0VBQ2IsY0FBYztFQUNkLGdCQUFnQjtFQUNoQixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsY0FBYztFQUNkLFdBQVc7RUFDWCxpQkFBaUI7RUFDakIsZUFBZTtFQUNmLGdCQUFnQjtFQUNoQixnQkFBZ0I7RUFDaEIsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixlQUFlO0VBQ2YsV0FBVztBQUNiOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGVBQWU7RUFDZixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGVBQWU7RUFDZixXQUFXO0FBQ2I7O0FBRUE7RUFDRSxjQUFjO0VBQ2QsV0FBVztFQUNYLFlBQVk7RUFDWixZQUFZO0VBQ1osZUFBZTtBQUNqQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLHVCQUF1QjtBQUN6Qjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixlQUFlO0FBQ2pCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGFBQWE7QUFDZjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixjQUFjO0VBQ2QsV0FBVztFQUNYLFlBQVk7QUFDZDs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixjQUFjO0FBQ2hCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLFdBQVc7RUFDWCxZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsV0FBVztFQUNYLFlBQVk7RUFDWixnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSxnQkFBZ0I7RUFDaEIsWUFBWTtFQUNaLGVBQWU7QUFDakI7O0FBRUE7O0VBRUUsYUFBYTtBQUNmOztBQUVBO0VBQ0UsZUFBZTtFQUNmLFVBQVU7RUFDVixRQUFRO0VBQ1IsV0FBVztFQUNYLFdBQVc7RUFDWCxnQkFBZ0I7RUFDaEIsb0JBQW9CO0FBQ3RCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLFFBQVE7RUFDUixTQUFTO0VBQ1QsVUFBVTtFQUNWLFdBQVc7RUFDWCxhQUFhO0VBQ2IsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGNBQWM7RUFDZCxVQUFVO0VBQ1YsU0FBUztFQUNULFlBQVk7RUFDWixXQUFXO0VBQ1gsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsYUFBYTtFQUNiLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIsbUJBQW1CO0VBQ25CLGVBQWU7RUFDZix1QkFBdUI7RUFDdkIsbUJBQW1CO0VBQ25CLFdBQVc7RUFDWCxZQUFZO0VBQ1osbUJBQW1CO0VBQ25CLDJDQUEyQztFQUMzQyxXQUFXO0VBQ1gsNEJBQTRCO0VBQzVCLFVBQVU7RUFDVixpQkFBaUI7RUFDakIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0Usb0JBQW9CO0FBQ3RCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGtCQUFrQjtFQUNsQixpQkFBaUI7RUFDakIsbUJBQW1CO0VBQ25CLGVBQWU7RUFDZix1QkFBdUI7RUFDdkIseUNBQXlDO0VBQ3pDLDRCQUE0QjtFQUM1QixrQkFBa0I7RUFDbEIsaUJBQWlCO0VBQ2pCLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsVUFBVTtFQUNWLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxrQkFBa0I7RUFDbEIsaUJBQWlCO0VBQ2pCLGVBQWU7RUFDZixpQkFBaUI7RUFDakIsZUFBZTtFQUNmLGtCQUFrQjtFQUNsQixhQUFhO0FBQ2Y7O0FBRUE7RUFDRSxlQUFlO0FBQ2pCOztBQUVBO0VBQ0UsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLFdBQVc7RUFDWCx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsUUFBUTtFQUNSLFNBQVM7RUFDVCxXQUFXO0VBQ1gsWUFBWTtFQUNaLG9CQUFvQjtFQUNwQixnQkFBZ0I7RUFDaEIsMEJBQTBCO0VBQzFCLDJCQUEyQjtBQUM3QiIsInNvdXJjZXNDb250ZW50IjpbInNmbWwtc3RvcmVmcm9udCB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbnNmbWwtc3RvcmVmcm9udCxcbnNmbWwtdGV4dHZpZXcsXG5zZm1sLXNjcm9sbHZpZXcsXG5zZm1sLWxpbmVhci1sYXlvdXQsXG5zZm1sLWNvbGxhcHNpYmxlLWxheW91dCxcbnNmbWwtZmxleGJveCxcbnNmbWwtaXRlbS1hdG9tLFxuc2ZtbC11cmwtaW1hZ2UsXG5zZm1sLWZseWVyLWltYWdlIHtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbn1cblxuc2ZtbC10ZXh0dmlldyB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBmb250LWZhbWlseTogc2Fucy1zZXJpZjtcbiAgZm9udC1zaXplOiAxNHB4O1xuICB3aGl0ZS1zcGFjZTogbm93cmFwO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcbn1cblxuc2ZtbC1zY3JvbGx2aWV3IHtcbiAgb3ZlcmZsb3cteDogaGlkZGVuO1xuICBvdmVyZmxvdy15OiBhdXRvO1xufVxuXG5zZm1sLXNjcm9sbHZpZXdbb3JpZW50YXRpb249aG9yaXpvbnRhbF0ge1xuICBvdmVyZmxvdy14OiBhdXRvO1xuICBvdmVyZmxvdy15OiBoaWRkZW47XG59XG5cbnNmbWwtbGluZWFyLWxheW91dCB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbnNmbWwtbGluZWFyLWxheW91dFtvcmllbnRhdGlvbj1ob3Jpem9udGFsXSB7XG4gIHdoaXRlLXNwYWNlOiBub3dyYXA7XG59XG5cbnNmbWwtbGluZWFyLWxheW91dFtvcmllbnRhdGlvbj1ob3Jpem9udGFsXSA+IDpsb2NhbCguc2xvdCkgPiAqIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xufVxuXG5zZm1sLWNvbGxhcHNpYmxlLWxheW91dCB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xufVxuXG5zZm1sLWNvbGxhcHNpYmxlLWxheW91dFtvcmllbnRhdGlvbj1ob3Jpem9udGFsXSB7XG4gIHdoaXRlLXNwYWNlOiBub3dyYXA7XG59XG5cbnNmbWwtY29sbGFwc2libGUtbGF5b3V0W29yaWVudGF0aW9uPWhvcml6b250YWxdID4gOmxvY2FsKC5zbG90KSA+ICoge1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG59XG5cbnNmbWwtY29sbGFwc2libGUtbGF5b3V0IDpsb2NhbCguaGVhZGVyKSB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgY3Vyc29yOiBwb2ludGVyO1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbn1cblxuc2ZtbC1jb2xsYXBzaWJsZS1sYXlvdXQgOmxvY2FsKC5oZWFkZXItY29udGFpbmVyKSB7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2VlZTtcbiAgYm9yZGVyLXJhZGl1czogM3B4O1xuICBtYXJnaW46IDVweCAwcHg7XG4gIHBhZGRpbmc6IDVweCAxMHB4O1xufVxuXG5zZm1sLWNvbGxhcHNpYmxlLWxheW91dCA6bG9jYWwoLmljb24pIHtcbiAgd2lkdGg6IDMycHg7XG4gIGhlaWdodDogMzJweDtcbn1cblxuc2ZtbC1jb2xsYXBzaWJsZS1sYXlvdXQgOmxvY2FsKC5pY29uKSBpbWcge1xuICB3aWR0aDogMTJweDtcbiAgaGVpZ2h0OiAxMnB4O1xuICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xuICBtYXJnaW4tcmlnaHQ6IDVweDtcbn1cblxuc2ZtbC1jb2xsYXBzaWJsZS1sYXlvdXQgOmxvY2FsKC50aXRsZSkge1xuICBjb2xvcjogIzAwNTVmZjtcbn1cblxuc2ZtbC1mbGV4Ym94IHtcbiAgZGlzcGxheTogZmxleDtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG5zZm1sLWZsZXhib3hbb3JpZW50YXRpb249aG9yaXpvbnRhbF0ge1xuICBmbGV4LWRpcmVjdGlvbjogcm93XG59XG5cbnNmbWwtZmxleGJveFtvcmllbnRhdGlvbj12ZXJ0aWNhbF0ge1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uXG59XG5cbnNmbWwtaXRlbS1hdG9tIHtcbiAgY3Vyc29yOiBwb2ludGVyO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xufVxuXG5zZm1sLWl0ZW0tYXRvbVtib3JkZXJlZF0ge1xuICBib3gtc2hhZG93OiBub25lO1xufVxuXG5zZm1sLWl0ZW0tYXRvbSA6bG9jYWwoLmRlZXQtY29udGFpbmVyKSB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgYm9yZGVyLXRvcDogMXB4IHNvbGlkIHJnYmEoMCwwLDAsMC4xKTtcbiAgbWFyZ2luOiA1cHg7XG4gIGhlaWdodDogMTA1cHg7XG4gIGNvbG9yOiAjNUM1QzVDO1xuICBwYWRkaW5nOiA1cHggNXB4O1xuICBvdmVyZmxvdzogaGlkZGVuO1xufVxuXG5zZm1sLWl0ZW0tYXRvbSA6bG9jYWwoLm5hbWUpIHtcbiAgd2lkdGg6IDEwMCU7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgbWF4LWhlaWdodDogNDBweDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbn1cblxuc2ZtbC1pdGVtLWF0b20gOmxvY2FsKC5wcmljZS1jb250YWluZXIpIHtcbiAgZm9udC1zaXplOiAxMnB4O1xufVxuXG5zZm1sLWl0ZW0tYXRvbSA6bG9jYWwoLnNhbGVzLXN0b3J5KSB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB3aWR0aDogMTAwJTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGZvbnQtc2l6ZTogMTBweDtcbiAgbWF4LWhlaWdodDogMjZweDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgY29sb3I6ICNGRjAwMDA7XG59XG5cbnNmbWwtaXRlbS1hdG9tIDpsb2NhbCgucHJlLXByaWNlKSB7XG4gIGRpc3BsYXk6IGlubGluZTtcbiAgZm9udC1zaXplOiAxMHB4O1xuICBjb2xvcjogI2FhYTtcbn1cblxuc2ZtbC1pdGVtLWF0b20gOmxvY2FsKC5wcmljZSkge1xuICBkaXNwbGF5OiBpbmxpbmU7XG4gIGZvbnQtc2l6ZTogMTZweDtcbiAgY29sb3I6ICMwMDAwMDA7XG59XG5cbnNmbWwtaXRlbS1hdG9tIDpsb2NhbCgucG9zdC1wcmljZSkge1xuICBkaXNwbGF5OiBpbmxpbmU7XG4gIGZvbnQtc2l6ZTogMTBweDtcbiAgY29sb3I6ICNhYWE7XG59XG5cbnNmbWwtaXRlbS1hdG9tIDpsb2NhbCgub3JpZ2luYWwtcHJpY2UpIHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEycHg7XG4gIGJvdHRvbTogNDBweDtcbiAgZm9udC1zaXplOiAxMHB4O1xufVxuXG5zZm1sLXVybC1pbWFnZSB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59XG5cbnNmbWwtdXJsLWltYWdlIC5pbWFnZSB7XG4gIG1heC1oZWlnaHQ6IDEwMCU7XG4gIG1heC13aWR0aDogMTAwJTtcbn1cblxuc2ZtbC1mbHllci1pbWFnZS1hIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBub25lO1xufVxuXG5zZm1sLWZseWVyLWltYWdlLWEgYSB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG59XG5cbnNmbWwtZmx5ZXItaW1hZ2Uge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGRpc3BsYXk6IGJsb2NrO1xufVxuXG5zZm1sLWZseWVyLWltYWdlIGNhbnZhcyB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuc2ZtbC1mbHllci1pbWFnZSBkaXYge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG4gIG92ZXJmbG93OiBoaWRkZW47XG59XG5cbnNmbWwtZmx5ZXItaW1hZ2UgYnV0dG9uIHtcbiAgYmFja2dyb3VuZDogbm9uZTtcbiAgYm9yZGVyOiBub25lO1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbnNmbWwtZmx5ZXItaW1hZ2UgYnV0dG9uOmFjdGl2ZSxcbnNmbWwtZmx5ZXItaW1hZ2UgYnV0dG9uOmZvY3VzIHtcbiAgb3V0bGluZTogbm9uZTtcbn1cblxuc2ZtbC13YXlmaW5kZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIHotaW5kZXg6IDE7XG4gIHRvcDogMHB4O1xuICB3aWR0aDogMTAwJTtcbiAgYm90dG9tOiAwcHg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xufVxuXG5zZm1sLXdheWZpbmRlciA6bG9jYWwoLnRvdWNoLWd1YXJkKSB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgdG9wOiAwcHg7XG4gIGxlZnQ6IDBweDtcbiAgcmlnaHQ6IDBweDtcbiAgYm90dG9tOiAwcHg7XG4gIGRpc3BsYXk6IG5vbmU7XG4gIHBvaW50ZXItZXZlbnRzOiBhbGw7XG59XG5cbnNmbWwtd2F5ZmluZGVyIDpsb2NhbCgudGh1bWItaW5uZXItdHJhY2spIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBibG9jaztcbiAgcmlnaHQ6IDBweDtcbiAgdG9wOiAzNXB4O1xuICBib3R0b206IDM1cHg7XG4gIHdpZHRoOiAzMHB4O1xuICBwb2ludGVyLWV2ZW50czogYWxsO1xufVxuXG5zZm1sLXdheWZpbmRlciA6bG9jYWwoLnRodW1iKSB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICBmbGV4LXdyYXA6IHdyYXA7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICB3aWR0aDogMzBweDtcbiAgaGVpZ2h0OiAzMHB4O1xuICBib3JkZXItcmFkaXVzOiAxNXB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuOTUpO1xuICByaWdodDogLTRweDtcbiAgYm94LXNoYWRvdzogMnB4IDJweCA4cHggIzg4ODtcbiAgei1pbmRleDogMjtcbiAgbWFyZ2luLXRvcDogLTE1cHg7XG4gIHBvaW50ZXItZXZlbnRzOiBhbGw7XG59XG5cbnNmbWwtd2F5ZmluZGVyIDpsb2NhbCgudGh1bWIpIHN2ZyB7XG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xufVxuXG5zZm1sLXdheWZpbmRlciBzZm1sLXdheWZpbmRlci1saXN0IHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgcGFkZGluZzogNXB4IDEwcHg7XG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gIGZvbnQtc2l6ZTogMTRweDtcbiAgZm9udC1mYW1pbHk6IHNhbnMtc2VyaWY7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjU1LDI1NSwyNTUsIDAuOTUpO1xuICBib3gtc2hhZG93OiAycHggMnB4IDhweCAjODg4O1xuICBtYXJnaW4tcmlnaHQ6IDQwcHg7XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICB3aWR0aDogZml0LWNvbnRlbnQ7XG4gIGhlaWdodDogZml0LWNvbnRlbnQ7XG4gIHotaW5kZXg6IDI7XG4gIHBvaW50ZXItZXZlbnRzOiBhbGw7XG59XG5cbnNmbWwtd2F5ZmluZGVyLWNhdGVnb3J5IHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHdpZHRoOiBmaXQtY29udGVudDtcbiAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gIG1hcmdpbi1yaWdodDogMDtcbiAgdGV4dC1hbGlnbjogcmlnaHQ7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBwYWRkaW5nOiAxMHB4O1xufVxuXG5zZm1sLXdheWZpbmRlci1jYXRlZ29yeSA6bG9jYWwoLmxhYmVsKSB7XG4gIGRpc3BsYXk6IGlubGluZTtcbn1cblxuc2ZtbC13YXlmaW5kZXItY2F0ZWdvcnkgOmxvY2FsKC5iYWRnZSkge1xuICBkaXNwbGF5OiBpbmxpbmU7XG59XG5cbnNmbWwtd2F5ZmluZGVyLWNhdGVnb3J5W3NlbGVjdGVkPXRydWVdIHtcbiAgY29sb3I6ICNmZmY7XG4gIGJhY2tncm91bmQtY29sb3I6ICM0MjhjZTg7XG59XG5cbjpsb2NhbCguYW5ub3RhdGlvbikge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHRvcDogMHB4O1xuICBsZWZ0OiAwcHg7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDEwMCU7XG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBiYWNrZ3JvdW5kLXNpemU6IDEwMCUgMTAwJTtcbiAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xufVxuXG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>flipp-carousel-component flipp-carousel-arrow button {
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    padding: 0;
+    cursor: pointer;
+}
+
+flipp-carousel-component flipp-carousel-arrow img {
+    width: 36px;
+    height: 36px;
+}
+
+flipp-carousel-component flipp-carousel-arrow[disabled] button {
+    cursor: default;
+    opacity: 0.3;
+}
+</style><style>flipp-carousel-component flipp-carousel-slide {
+    display: block;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+flipp-carousel-component flipp-carousel-slide[hidden] {
+    display: none;
+}
+</style><style>flipp-carousel-component flipp-carousel-dot-component {
+    display: block;
+    box-sizing: border-box;
+    padding-right: 3%;
+}
+
+flipp-carousel-component flipp-carousel-dot-component button {
+    height: 11px;
+    width: 11px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: #E5E5E5;
+    border-radius: 50%;
+}
+
+flipp-carousel-component flipp-carousel-dot-component:last-of-type {
+    padding-right: 0;
+}
+
+flipp-carousel-component flipp-carousel-dot-component[selected] button{
+    background: #1a75cf;
+    height: 13px;
+    width: 13px;
+}
+
+flipp-carousel-component flipp-carousel-dot-component:first-child {
+    margin-left: 0;
+}
+
+flipp-carousel-component flipp-carousel-dot-component:last-child {
+    margin-right: 0;
+}
+</style><style>flipp-carousel-component flipp-carousel-tab-component {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 3%;
+    flex: 1 1 auto;
+}
+
+flipp-carousel-component flipp-carousel-tab-component button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    box-sizing: border-box;
+}
+
+flipp-carousel-component flipp-carousel-tab-component:last-of-type {
+    padding-right: 0;
+}
+
+flipp-carousel-component flipp-carousel-tab-component[selected] button{
+    border: 1px solid #2270ff;
+}
+
+flipp-carousel-component flipp-carousel-tab-component:first-child {
+    margin-left: 0;
+}
+
+flipp-carousel-component flipp-carousel-tab-component:last-child {
+    margin-right: 0;
+}
+</style><style>flipp-carousel-component flipp-carousel-list-container {
+    width: 100%;
+    position: relative;
+}
+</style><style>flipp-carousel-component {
+  width: 100%;
+}
+
+flipp-carousel-component .flipp-items-container {
+  width: 100%;
+  display: flex;
+}
+
+flipp-carousel-component .flipp-carousel-slides-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+flipp-carousel-component .flipp-carousel-dot-track {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+flipp-carousel-component .carousel-slides-track {
+  display: flex;
+}
+
+flipp-carousel-component .flipp-carousel-arrow-track {
+  display: flex;
+  align-items: center;
+}
+
+flipp-carousel-component .flipp-carousel-tab-track {
+  /*margin: 0 auto;*/
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  height: 80px;
+  align-items: center;
+  margin-bottom: -9px !important;
+}
+
+flipp-carousel-component .flipp-carousel-tab-track::-webkit-scrollbar {
+  display: none;
+}
+
+flipp-carousel-component .flipp-carousel-tab-track {
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+</style><style>flipp-coupons-tile > div {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f3f5;
+  padding: 5px;
+}
+
+flipp-coupons-tile section {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+flipp-coupons-tile section > img {
+  width: 125px;
+}
+
+flipp-coupons-tile section > .details * {
+  margin: 5px;
+}
+
+flipp-coupons-tile section > .details {
+  display: flex;
+  flex-direction: column;
+}
+
+flipp-coupons-tile section > .details p {
+  font-size: .8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+flipp-coupons-tile .buttons {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+flipp-coupons-tile .buttons > button {
+  font-weight: 700;
+  border-radius: 22px;
+  border: 1px solid #1a75cf;
+  padding: 5px 10px;
+  color: #1a75cf;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 100%;
+  margin: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+flipp-coupons-tile .buttons > button:first-of-type {
+  color: rgb(255, 255, 255);
+  background-color: #1a75cf;
+}
+
+flipp-coupons-tile .alert {
+  color: #d41e1e;
+}
+
+flipp-coupons-tile .fade {
+  color: #757575;
+  font-size: .9rem;
+}
+
+@media only screen and (min-width: 768px) {
+  flipp-coupons-tile section {
+    flex-direction: column;
+  }
+
+  flipp-coupons-tile section > img {
+    width: 100%;
+    height: 200px;
+  }
+}</style><style>flipp-banner-tile > div {
+  background-color: #f2f3f5;
+  padding: 5px;
+}
+
+flipp-banner-tile button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+flipp-banner-tile button > img {
+  width: 240px;
+  height: 250px;
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  flipp-banner-tile button > img {
+    width: 100%;
+    height: 390px;
+  }
+}</style><style>flipp-carousel-component flipp-carousel-arrow button {
+    border: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    padding: 0;
+    cursor: pointer;
+}
+
+flipp-carousel-component flipp-carousel-arrow img {
+    width: 36px;
+    height: 36px;
+}
+
+flipp-carousel-component flipp-carousel-arrow[disabled] button {
+    cursor: default;
+    opacity: 0.3;
+}
+</style><style>flipp-carousel-component flipp-carousel-slide {
+    display: block;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+flipp-carousel-component flipp-carousel-slide[hidden] {
+    display: none;
+}
+</style><style>flipp-carousel-component flipp-carousel-dot-component {
+    display: block;
+    box-sizing: border-box;
+    padding-right: 3%;
+}
+
+flipp-carousel-component flipp-carousel-dot-component button {
+    height: 11px;
+    width: 11px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: #E5E5E5;
+    border-radius: 50%;
+}
+
+flipp-carousel-component flipp-carousel-dot-component:last-of-type {
+    padding-right: 0;
+}
+
+flipp-carousel-component flipp-carousel-dot-component[selected] button{
+    background: #1a75cf;
+    height: 13px;
+    width: 13px;
+}
+
+flipp-carousel-component flipp-carousel-dot-component:first-child {
+    margin-left: 0;
+}
+
+flipp-carousel-component flipp-carousel-dot-component:last-child {
+    margin-right: 0;
+}
+</style><style>flipp-carousel-component flipp-carousel-tab-component {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 3%;
+    flex: 1 1 auto;
+}
+
+flipp-carousel-component flipp-carousel-tab-component button {
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    box-sizing: border-box;
+}
+
+flipp-carousel-component flipp-carousel-tab-component:last-of-type {
+    padding-right: 0;
+}
+
+flipp-carousel-component flipp-carousel-tab-component[selected] button{
+    border: 1px solid #2270ff;
+}
+
+flipp-carousel-component flipp-carousel-tab-component:first-child {
+    margin-left: 0;
+}
+
+flipp-carousel-component flipp-carousel-tab-component:last-child {
+    margin-right: 0;
+}
+</style><style>flipp-carousel-component flipp-carousel-list-container {
+    width: 100%;
+    position: relative;
+}
+</style><style>flipp-carousel-component {
+  width: 100%;
+}
+
+flipp-carousel-component .flipp-items-container {
+  width: 100%;
+  display: flex;
+}
+
+flipp-carousel-component .flipp-carousel-slides-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+flipp-carousel-component .flipp-carousel-dot-track {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+flipp-carousel-component .carousel-slides-track {
+  display: flex;
+}
+
+flipp-carousel-component .flipp-carousel-arrow-track {
+  display: flex;
+  align-items: center;
+}
+
+flipp-carousel-component .flipp-carousel-tab-track {
+  /*margin: 0 auto;*/
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  height: 80px;
+  align-items: center;
+  margin-bottom: -9px !important;
+}
+
+flipp-carousel-component .flipp-carousel-tab-track::-webkit-scrollbar {
+  display: none;
+}
+
+flipp-carousel-component .flipp-carousel-tab-track {
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+</style><style>flipp-coupons-tile > div {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f3f5;
+  padding: 5px;
+}
+
+flipp-coupons-tile section {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+flipp-coupons-tile section > img {
+  width: 125px;
+}
+
+flipp-coupons-tile section > .details * {
+  margin: 5px;
+}
+
+flipp-coupons-tile section > .details {
+  display: flex;
+  flex-direction: column;
+}
+
+flipp-coupons-tile section > .details p {
+  font-size: .8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+flipp-coupons-tile .buttons {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+flipp-coupons-tile .buttons > button {
+  font-weight: 700;
+  border-radius: 22px;
+  border: 1px solid #1a75cf;
+  padding: 5px 10px;
+  color: #1a75cf;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 100%;
+  margin: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+flipp-coupons-tile .buttons > button:first-of-type {
+  color: rgb(255, 255, 255);
+  background-color: #1a75cf;
+}
+
+flipp-coupons-tile .alert {
+  color: #d41e1e;
+}
+
+flipp-coupons-tile .fade {
+  color: #757575;
+  font-size: .9rem;
+}
+
+@media only screen and (min-width: 768px) {
+  flipp-coupons-tile section {
+    flex-direction: column;
+  }
+
+  flipp-coupons-tile section > img {
+    width: 100%;
+    height: 200px;
+  }
+}</style><style>flipp-banner-tile > div {
+  background-color: #f2f3f5;
+  padding: 5px;
+}
+
+flipp-banner-tile button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+flipp-banner-tile button > img {
+  width: 240px;
+  height: 250px;
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  flipp-banner-tile button > img {
+    width: 100%;
+    height: 390px;
+  }
+}</style><style>flipp-publications {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+flipp-publications ul {
+  list-style: none;
+  padding: 0;
+  margin: 13px 0;
+}
+
+flipp-publications > div {
+  max-width: 380px;
+  flex-grow: 1;
+}
+
+flipp-publications > div > h2 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+flipp-publications .divider {
+  width: 90%;
+  border: 1px solid #eeeeee;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+flipp-publications li:last-child .divider {
+  display: none;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jb21wb25lbnRzL1B1YmxpY2F0aW9uU2VsZWN0b3JDb21wb25lbnQvc3R5bGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBYTtFQUNiLHFCQUFxQjtFQUNyQix1QkFBdUI7QUFDekI7O0FBRUE7RUFDRSxnQkFBZ0I7RUFDaEIsVUFBVTtFQUNWLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxnQkFBZ0I7RUFDaEIsWUFBWTtBQUNkOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YseUJBQXlCO0VBQ3pCLGNBQWM7RUFDZCxtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxhQUFhO0FBQ2YiLCJzb3VyY2VzQ29udGVudCI6WyJmbGlwcC1wdWJsaWNhdGlvbnMge1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWZsb3c6IHJvdyBub3dyYXA7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuXG5mbGlwcC1wdWJsaWNhdGlvbnMgdWwge1xuICBsaXN0LXN0eWxlOiBub25lO1xuICBwYWRkaW5nOiAwO1xuICBtYXJnaW46IDEzcHggMDtcbn1cblxuZmxpcHAtcHVibGljYXRpb25zID4gZGl2IHtcbiAgbWF4LXdpZHRoOiAzODBweDtcbiAgZmxleC1ncm93OiAxO1xufVxuXG5mbGlwcC1wdWJsaWNhdGlvbnMgPiBkaXYgPiBoMiB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgbWFyZ2luLWJvdHRvbTogMHB4O1xuICBmb250LXdlaWdodDogbm9ybWFsO1xufVxuXG5mbGlwcC1wdWJsaWNhdGlvbnMgLmRpdmlkZXIge1xuICB3aWR0aDogOTAlO1xuICBib3JkZXI6IDFweCBzb2xpZCAjZWVlZWVlO1xuICBtYXJnaW46IDAgYXV0bztcbiAgbWFyZ2luLWJvdHRvbTogMjBweDtcbn1cblxuZmxpcHAtcHVibGljYXRpb25zIGxpOmxhc3QtY2hpbGQgLmRpdmlkZXIge1xuICBkaXNwbGF5OiBub25lO1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style></head>
+          <body class="single" style="color: rgb(77, 77, 77); font-family: Roboto, sans-serif; width: 1056px; min-width: 100%; overflow-y: hidden;">
+      
+          <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-F956HL3RWS&amp;l=dataLayer&amp;cx=c&amp;gtm=457e4bk0za200"></script><script>
+          frameId = "8b8e6f27-3764-4cc8-be5c-433c1a9c52e9";
+          frameType = "main";
+          initialRoute = "/publication?publication-id=6971565&jump-category=undefined";
+          </script>
+          
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-2936689-28"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-2936689-28');  
+            </script>
+            <flipp-router><flipp-loader><div class="loader-background loader-none"><div class="loader"><flipp-spinner size="default"><div class="spinner "><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div></div></flipp-spinner></div></div></flipp-loader><flipp-publication-page publication-id="6971565" jump-category="undefined"><div class="wrapper" style="background-color: rgb(234, 234, 234);"><div class="content-header-container"></div><flipp-scroll-controls-arrows><div class="scroll-controls-arrows" style="top: 135px; width: 1056px;"><button id="leftButton" class="scroll-controls-arrow" aria-label="Move to the left" disabled="true"><flipp-svg-icon svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 90.2 90.2&quot;><circle cx=&quot;45.1&quot; cy=&quot;45.1&quot; r=&quot;45.1&quot;/><path fill=&quot;#fff&quot; d=&quot;M52.4 62l1.7-1.7-15.8-15.9 14.5-14.5-1.8-1.8-16.3 16.3z&quot;/></svg>" class="active"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90.2 90.2" aria-hidden="true" alt=""><circle cx="45.1" cy="45.1" r="45.1"></circle><path fill="#fff" d="M52.4 62l1.7-1.7-15.8-15.9 14.5-14.5-1.8-1.8-16.3 16.3z"></path></svg></flipp-svg-icon></button><button id="rightButton" class="scroll-controls-arrow" aria-label="Move to the right" disabled="true"><flipp-svg-icon svg="<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 90.2 90.2&quot;><circle cx=&quot;45.1&quot; cy=&quot;45.1&quot; r=&quot;45.1&quot;/><path fill=&quot;#fff&quot; d=&quot;M37.9 62l-1.8-1.7L52 44.4 37.5 29.9l1.8-1.8 16.2 16.3z&quot;/></svg>" class="active"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90.2 90.2" aria-hidden="true" alt=""><circle cx="45.1" cy="45.1" r="45.1"></circle><path fill="#fff" d="M37.9 62l-1.8-1.7L52 44.4 37.5 29.9l1.8-1.8 16.2 16.3z"></path></svg></flipp-svg-icon></button></div></flipp-scroll-controls-arrows><div class="message-banner-container"></div><div class="sfml-wrapper" style="background-color: rgb(255, 255, 255);"><flipp-sfml-component sfml-url="https://cdn-gateflipp.flippback.com/storefront-payload/1061153/6971565/5ec83404a24ed55424663d1240ce866cd22c7ef5e2b9d8094c3281da26c6fdb9?merchant_id=2337" sfml-id="/storefront-payload/1061153/6971565/5ec83404a24ed55424663d1240ce866cd22c7ef5e2b9d8094c3281da26c6fdb9" flyer-run-id="1061153" flyer-id="6971565" flyer-type="weeklyflyer" jump-category="undefined" style="display: block; transform: scale(1); transform-origin: center top; height: 15708px;"><sfml-storefront subtitle="Nov 28 to Dec 04" sfmluuid="6738cea4-92ae-464b-81bf-19136e70b19f" styled="true"><flipp-wayfinder-sticky><div list-container="" style="background-color: white; display: none; overflow-y: scroll;"><sfml-wayfinder-list><sfml-wayfinder-category sfml-anchor-id="2" anchor-id="sfml_anchor_2"><div class="BAHNQgRZlLgwJoKpaF2y">Pantry</div><div class="YDWvhw2szaf3ieHgvSJm"></div></sfml-wayfinder-category><sfml-wayfinder-category sfml-anchor-id="4" anchor-id="sfml_anchor_4"><div class="BAHNQgRZlLgwJoKpaF2y">Bakery</div><div class="YDWvhw2szaf3ieHgvSJm"></div></sfml-wayfinder-category></sfml-wayfinder-list></div></flipp-wayfinder-sticky><div sfml-content-wrap=""><sfml-linear-layout orientation="vertical" style="width: 100%; height: auto;"><sfml-flyer-image impressionable="" width="6339" height="2560" path="flyers/36448b1f-defa-445c-abc9-87c019251443/" resolutions="8 5.33 3.7 2.33 1.55 1" src-rect="0 0 976 2560" aspect-ratio="2.622950819672131" sfml-anchor-id="0" style="width: 100%; height: 2769.84px;"><a wayfinder-anchor="" name="sfml_anchor_0"></a><canvas width="1892" height="4963"></canvas><div><button aria-label="KNORR SIDEKICKS, 121-153 G, , 3/ $4.98 less than 3 $1.99 ea. . Select for details." data-product-id="893878732" data-global-id="01JDMX7PR83S7JC18RMWQPT4ZS" class="item-overlay" style="display: block; position: absolute; left: 549.779px; top: 60.928px; width: 474.481px; height: 677.348px;"></button><button aria-label="BETTY CROCKER SUPERMOIST CAKE MIX 375-404 G OR FROSTINGS 340-450 G, , $2 . Select for details." data-product-id="893878734" data-global-id="01JDMX7PR8D32Z0TDGBT55TFK3" class="item-overlay" style="display: block; position: absolute; left: 554.726px; top: 734.154px; width: 475.105px; height: 621.685px;"></button><button aria-label="KETTLE POTATO CHIPS, 156-198 G, , $2.50 . Select for details." data-product-id="893878736" data-global-id="01JDMX7PR8SMB3DMQNTH22ZD2B" class="item-overlay" style="display: block; position: absolute; left: 549.709px; top: 1355.55px; width: 473.221px; height: 645.139px;"></button><button aria-label="BRITA POUR THROUGH PITCHER FILTER, 3-PACK OR, BRITA DENALI WATER FILTER PITCHER, 6-CUP CAPACITY, WHITE, PC Optimum Get 5,000 pts = $5 Value, $20 . Select for details." data-product-id="893878728" data-global-id="01JDMX7PQEVD44ASZ6GKQMFP8W" class="item-overlay" style="display: block; position: absolute; left: 38.1849px; top: 1071.33px; width: 442.825px; height: 795.452px;"></button><button aria-label="NESTLÉ SINGLES CHOCOLATE, 41-50 G, , $1 . Select for details." data-product-id="893878738" data-global-id="01JDMX7PR84M1H4V5C8N31FHX4" class="item-overlay" style="display: block; position: absolute; left: 555.359px; top: 1989.87px; width: 465.009px; height: 643.744px;"></button><button aria-label="ENERGIZER BATTERIES, AA8/AAA4, , $5 † . Select for details." data-product-id="893878730" data-global-id="01JDMX7PQEE36ED4W001B3BJ02" class="item-overlay" style="display: block; position: absolute; left: 31.9644px; top: 1870.75px; width: 451.104px; height: 815.689px;"></button></div><sfml-flyer-image-a aria-label="KNORR SIDEKICKS, 121-153 G, , 3/ $4.98 less than 3 $1.99 ea." annotatable="" item-type="flyer-item" item-id="893878732" data-global-id="01JDMX7PR83S7JC18RMWQPT4ZS" href="https://sf.flipp.com/items/1234.sfml" src-rect="508.1293 56.3089 438.53569999999996 625.9971" label="KNORR SIDEKICKS, 121-153 G, , 3/ $4.98 less than 3 $1.99 ea." item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="BETTY CROCKER SUPERMOIST CAKE MIX 375-404 G OR FROSTINGS 340-450 G, , $2" annotatable="" item-type="flyer-item" item-id="893878734" data-global-id="01JDMX7PR8D32Z0TDGBT55TFK3" href="https://sf.flipp.com/items/1234.sfml" src-rect="512.701 678.496 439.11199999999997 574.554" label="BETTY CROCKER SUPERMOIST CAKE MIX 375-404 G OR FROSTINGS 340-450 G, , $2" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="KETTLE POTATO CHIPS, 156-198 G, , $2.50" annotatable="" item-type="flyer-item" item-id="893878736" data-global-id="01JDMX7PR8SMB3DMQNTH22ZD2B" href="https://sf.flipp.com/items/1234.sfml" src-rect="508.064 1252.78 437.3709999999999 596.23" label="KETTLE POTATO CHIPS, 156-198 G, , $2.50" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="BRITA POUR THROUGH PITCHER FILTER, 3-PACK OR, BRITA DENALI WATER FILTER PITCHER, 6-CUP CAPACITY, WHITE, PC Optimum Get 5,000 pts = $5 Value, $20" annotatable="" item-type="flyer-item" item-id="893878728" data-global-id="01JDMX7PQEVD44ASZ6GKQMFP8W" href="https://sf.flipp.com/items/1234.sfml" src-rect="35.2921 990.113 409.2779 735.1469999999999" label="BRITA POUR THROUGH PITCHER FILTER, 3-PACK OR, BRITA DENALI WATER FILTER PITCHER, 6-CUP CAPACITY, WHITE, PC Optimum Get 5,000 pts = $5 Value, $20" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="NESTLÉ SINGLES CHOCOLATE, 41-50 G, , $1" annotatable="" item-type="flyer-item" item-id="893878738" data-global-id="01JDMX7PR84M1H4V5C8N31FHX4" href="https://sf.flipp.com/items/1234.sfml" src-rect="513.2860000000001 1839.01 429.78099999999995 594.9399999999998" label="NESTLÉ SINGLES CHOCOLATE, 41-50 G, , $1" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="ENERGIZER BATTERIES, AA8/AAA4, , $5 †" annotatable="" item-type="flyer-item" item-id="893878730" data-global-id="01JDMX7PQEE36ED4W001B3BJ02" href="https://sf.flipp.com/items/1234.sfml" src-rect="29.5429 1728.92 416.9291 753.8499999999999" label="ENERGIZER BATTERIES, AA8/AAA4, , $5 †" item-type-number="1"></sfml-flyer-image-a></sfml-flyer-image><sfml-flyer-image impressionable="" width="6339" height="2560" path="flyers/36448b1f-defa-445c-abc9-87c019251443/" resolutions="8 5.33 3.7 2.33 1.55 1" src-rect="976 0 975 2560" aspect-ratio="2.6256410256410256" sfml-anchor-id="1" style="width: 100%; height: 2772.68px;"><a wayfinder-anchor="" name="sfml_anchor_1"></a><canvas width="0" height="0"></canvas><div><button aria-label="WHOLE CHICKEN, SAVE $1.80 LB, $2.99 lb . Select for details." data-product-id="893878766" data-global-id="01JDMX7PQFZ8A6G2ETB40M0HYJ" class="item-overlay" style="display: block; position: absolute; left: 31.5743px; top: 202.095px; width: 500.116px; height: 418.269px;"></button><button aria-label="T-BONE STEAK, SAVE $4 LB, $8.88 lb . Select for details." data-product-id="893878768" data-global-id="01JDMX7PQFVAYCEXKHNANVM35S" class="item-overlay" style="display: block; position: absolute; left: 525.841px; top: 200.107px; width: 496.342px; height: 414.105px;"></button><button aria-label="PORK TENDERLOIN, PKG OF 2, SAVE 42%, $3.99 lb . Select for details." data-product-id="893878770" data-global-id="01JDMX7PQF9GDFGVSZ270WENEZ" class="item-overlay" style="display: block; position: absolute; left: 16.8753px; top: 631.519px; width: 342.692px; height: 397.693px;"></button><button aria-label="BLUEBERRIES OR RASPBERRIES, 170 G, , $3.50 . Select for details." data-product-id="893878771" data-global-id="01JDMX7PQFBY3H42N53AZ9YFDW" class="item-overlay" style="display: block; position: absolute; left: 359.772px; top: 617.548px; width: 328.763px; height: 403.621px;"></button><button aria-label="FARMER'S MARKET™ RUSSET POTATOES, 10 LB BAG, , $4 . Select for details." data-product-id="893878773" data-global-id="01JDMX7PQGGH0SCJ2ASRG87RPJ" class="item-overlay" style="display: block; position: absolute; left: 686.265px; top: 614.635px; width: 339.138px; height: 404.059px;"></button><button aria-label="COUNTRY HARVEST BREAD OR BAGELS, SAVE $1.08 WHEN YOU BUY 2, 2/ $7.50 less than 2 $4.29 ea. . Select for details." data-product-id="893878774" data-global-id="01JDMX7PQG08PVX7T6G5VX8B73" class="item-overlay" style="display: block; position: absolute; left: 32.277px; top: 1030.3px; width: 336.7px; height: 424.062px;"></button><button aria-label="SEAQUEST® FISH FILLETS, 400 G, , $5.99 . Select for details." data-product-id="893878776" data-global-id="01JDMX7PQGVR4F2W54KGPZ6ZKE" class="item-overlay" style="display: block; position: absolute; left: 360.564px; top: 1037.09px; width: 325.783px; height: 416.296px;"></button><button aria-label="NO NAME EVAPORATED MILK, 354 ML, Members save 50¢, Members Only Price $1.25 . Select for details." data-product-id="893878778" data-global-id="01JDMX7PQHP5PGWTK8X79BR1TN" class="item-overlay" style="display: block; position: absolute; left: 689.243px; top: 1022.85px; width: 332.208px; height: 427.775px;"></button><button aria-label="CAVENDISH FARMS PREMIUM FRIES, 400-750 G, HASHBROWN PATTIES 600 G OR PC® VEGETABLES 400-750 G, , $2.99 . Select for details." data-product-id="893878780" data-global-id="01JDMX7PQHX638Y02DXQ6YX3VG" class="item-overlay" style="display: block; position: absolute; left: 31.2742px; top: 1464.89px; width: 337.089px; height: 406.721px;"></button><button aria-label="PHILADELPHIA CREAM CHEESE OR DIPS, 227/250 G, , $3.99 . Select for details." data-product-id="893878782" data-global-id="01JDMX7PQH6Q0EZCZDH98EBK1P" class="item-overlay" style="display: block; position: absolute; left: 367.371px; top: 1449.8px; width: 329.664px; height: 416.892px;"></button><button aria-label="CRACKER BARREL CHEESE BARS, 400 G, SHREDS 250-320 G, PC® SHREDS, 250-320 G, , $5.77 . Select for details." data-product-id="893878786" data-global-id="01JDMX7PQHNZ3V2923E2HH25WY" class="item-overlay" style="display: block; position: absolute; left: 689.059px; top: 1453.86px; width: 334.819px; height: 418.149px;"></button><button aria-label="HIGH LINER PAN-SEAR SELECTS OR SIGNATURE CUTS, 425-600 G, SAVE $8, $9.99 . Select for details." data-product-id="893878788" data-global-id="01JDMX7PQJCA9H84KE5HW9KQZB" class="item-overlay" style="display: block; position: absolute; left: 31.5218px; top: 1868.48px; width: 336.982px; height: 427.313px;"></button><button aria-label="TIDE LAUNDRY DETERGENT, 1 L, 12-16'S DOWNY, GAIN FABRIC SOFTENER, 946 ML-1.31 L OR BEADS, 141 G, BOUNCE SHEETS, 40-80'S, SAVE UP TO 50%, $4.99 . Select for details." data-product-id="893878790" data-global-id="01JDMX7PQJ8128H1DNKC88F1MC" class="item-overlay" style="display: block; position: absolute; left: 369.438px; top: 1869.87px; width: 324.872px; height: 424.312px;"></button><button aria-label="CASHMERE BATHROOM TISSUE, 8=16 ROLLS OR SCOTTIES FACIAL TISSUE, 6'S, Members save $7, Members Only Price $4.99 . Select for details." data-product-id="893878792" data-global-id="01JDMX7PQKPGHH4RSNVPM15F57" class="item-overlay" style="display: block; position: absolute; left: 690.912px; top: 1863.72px; width: 331.339px; height: 428.483px;"></button></div><sfml-flyer-image-a aria-label="WHOLE CHICKEN, SAVE $1.80 LB, $2.99 lb" annotatable="" item-type="flyer-item" item-id="893878766" data-global-id="01JDMX7PQFZ8A6G2ETB40M0HYJ" href="https://sf.flipp.com/items/1234.sfml" src-rect="1005.1524 186.572 461.7546 386.14099999999996" label="WHOLE CHICKEN, SAVE $1.80 LB, $2.99 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="T-BONE STEAK, SAVE $4 LB, $8.88 lb" annotatable="" item-type="flyer-item" item-id="893878768" data-global-id="01JDMX7PQFVAYCEXKHNANVM35S" href="https://sf.flipp.com/items/1234.sfml" src-rect="1461.507 184.736 458.27 382.297" label="T-BONE STEAK, SAVE $4 LB, $8.88 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PORK TENDERLOIN, PKG OF 2, SAVE 42%, $3.99 lb" annotatable="" item-type="flyer-item" item-id="893878770" data-global-id="01JDMX7PQF9GDFGVSZ270WENEZ" href="https://sf.flipp.com/items/1234.sfml" src-rect="991.5809 583.011 316.40610000000004 367.145" label="PORK TENDERLOIN, PKG OF 2, SAVE 42%, $3.99 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="BLUEBERRIES OR RASPBERRIES, 170 G, , $3.50" annotatable="" item-type="flyer-item" item-id="893878771" data-global-id="01JDMX7PQFBY3H42N53AZ9YFDW" href="https://sf.flipp.com/items/1234.sfml" src-rect="1308.176 570.113 303.5450000000001 372.61799999999994" label="BLUEBERRIES OR RASPBERRIES, 170 G, , $3.50" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="FARMER'S MARKET™ RUSSET POTATOES, 10 LB BAG, , $4" annotatable="" item-type="flyer-item" item-id="893878773" data-global-id="01JDMX7PQGGH0SCJ2ASRG87RPJ" href="https://sf.flipp.com/items/1234.sfml" src-rect="1609.625 567.424 313.125 373.02200000000005" label="FARMER'S MARKET™ RUSSET POTATOES, 10 LB BAG, , $4" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="COUNTRY HARVEST BREAD OR BAGELS, SAVE $1.08 WHEN YOU BUY 2, 2/ $7.50 less than 2 $4.29 ea." annotatable="" item-type="flyer-item" item-id="893878774" data-global-id="01JDMX7PQG08PVX7T6G5VX8B73" href="https://sf.flipp.com/items/1234.sfml" src-rect="1005.8012 951.161 310.87379999999996 391.48900000000015" label="COUNTRY HARVEST BREAD OR BAGELS, SAVE $1.08 WHEN YOU BUY 2, 2/ $7.50 less than 2 $4.29 ea." item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="SEAQUEST® FISH FILLETS, 400 G, , $5.99" annotatable="" item-type="flyer-item" item-id="893878776" data-global-id="01JDMX7PQGVR4F2W54KGPZ6ZKE" href="https://sf.flipp.com/items/1234.sfml" src-rect="1308.907 957.431 300.7940000000001 384.31899999999996" label="SEAQUEST® FISH FILLETS, 400 G, , $5.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="NO NAME EVAPORATED MILK, 354 ML, Members save 50¢, Members Only Price $1.25" annotatable="" item-type="flyer-item" item-id="893878778" data-global-id="01JDMX7PQHP5PGWTK8X79BR1TN" href="https://sf.flipp.com/items/1234.sfml" src-rect="1612.375 944.283 306.7260000000001 394.91700000000003" label="NO NAME EVAPORATED MILK, 354 ML, Members save 50¢, Members Only Price $1.25" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="CAVENDISH FARMS PREMIUM FRIES, 400-750 G, HASHBROWN PATTIES 600 G OR PC® VEGETABLES 400-750 G, , $2.99" annotatable="" item-type="flyer-item" item-id="893878780" data-global-id="01JDMX7PQHX638Y02DXQ6YX3VG" href="https://sf.flipp.com/items/1234.sfml" src-rect="1004.8753 1352.37 311.2326999999999 375.48" label="CAVENDISH FARMS PREMIUM FRIES, 400-750 G, HASHBROWN PATTIES 600 G OR PC® VEGETABLES 400-750 G, , $2.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PHILADELPHIA CREAM CHEESE OR DIPS, 227/250 G, , $3.99" annotatable="" item-type="flyer-item" item-id="893878782" data-global-id="01JDMX7PQH6Q0EZCZDH98EBK1P" href="https://sf.flipp.com/items/1234.sfml" src-rect="1315.192 1338.44 304.37699999999995 384.8699999999999" label="PHILADELPHIA CREAM CHEESE OR DIPS, 227/250 G, , $3.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="CRACKER BARREL CHEESE BARS, 400 G, SHREDS 250-320 G, PC® SHREDS, 250-320 G, , $5.77" annotatable="" item-type="flyer-item" item-id="893878786" data-global-id="01JDMX7PQHNZ3V2923E2HH25WY" href="https://sf.flipp.com/items/1234.sfml" src-rect="1612.205 1342.19 309.13700000000017 386.03" label="CRACKER BARREL CHEESE BARS, 400 G, SHREDS 250-320 G, PC® SHREDS, 250-320 G, , $5.77" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="HIGH LINER PAN-SEAR SELECTS OR SIGNATURE CUTS, 425-600 G, SAVE $8, $9.99" annotatable="" item-type="flyer-item" item-id="893878788" data-global-id="01JDMX7PQJCA9H84KE5HW9KQZB" href="https://sf.flipp.com/items/1234.sfml" src-rect="1005.1039 1724.96 311.1341000000001 394.4899999999998" label="HIGH LINER PAN-SEAR SELECTS OR SIGNATURE CUTS, 425-600 G, SAVE $8, $9.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="TIDE LAUNDRY DETERGENT, 1 L, 12-16'S DOWNY, GAIN FABRIC SOFTENER, 946 ML-1.31 L OR BEADS, 141 G, BOUNCE SHEETS, 40-80'S, SAVE UP TO 50%, $4.99" annotatable="" item-type="flyer-item" item-id="893878790" data-global-id="01JDMX7PQJ8128H1DNKC88F1MC" href="https://sf.flipp.com/items/1234.sfml" src-rect="1317.1 1726.24 299.953 391.72" label="TIDE LAUNDRY DETERGENT, 1 L, 12-16'S DOWNY, GAIN FABRIC SOFTENER, 946 ML-1.31 L OR BEADS, 141 G, BOUNCE SHEETS, 40-80'S, SAVE UP TO 50%, $4.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="CASHMERE BATHROOM TISSUE, 8=16 ROLLS OR SCOTTIES FACIAL TISSUE, 6'S, Members save $7, Members Only Price $4.99" annotatable="" item-type="flyer-item" item-id="893878792" data-global-id="01JDMX7PQKPGHH4RSNVPM15F57" href="https://sf.flipp.com/items/1234.sfml" src-rect="1613.9160000000002 1720.56 305.924 395.57000000000016" label="CASHMERE BATHROOM TISSUE, 8=16 ROLLS OR SCOTTIES FACIAL TISSUE, 6'S, Members save $7, Members Only Price $4.99" item-type-number="1"></sfml-flyer-image-a></sfml-flyer-image><sfml-flyer-image impressionable="" width="6339" height="2560" path="flyers/36448b1f-defa-445c-abc9-87c019251443/" resolutions="8 5.33 3.7 2.33 1.55 1" src-rect="1951 0 975 2560" aspect-ratio="2.6256410256410256" sfml-anchor-id="2" style="width: 100%; height: 2772.68px;"><a wayfinder-anchor="" name="sfml_anchor_2"></a><canvas width="0" height="0"></canvas><div><button aria-label="BASSÉ MIX, 415-600 G, Members save $2, Members Only Price $5 . Select for details." data-product-id="893878833" data-global-id="01JDMX7PQK09B2DPV8R0GA3JW4" class="item-overlay" style="display: block; position: absolute; left: 24.4106px; top: 38.6829px; width: 339.191px; height: 390.711px;"></button><button aria-label="NESTLÉ TURTLES, 300/350 G, PC Optimum Get 2,000 pts = $2 Value, $11.99 . Select for details." data-product-id="893878840" data-global-id="01JDMX7PQK6SYBAMW1SJEQDTPC" class="item-overlay" style="display: block; position: absolute; left: 362.249px; top: 36.2523px; width: 326.697px; height: 394.896px;"></button><button aria-label="QUAKER INSTANT OATMEAL, 216-430 G, PC Optimum GET 2,000 pts for every $10* spent, =$2 Value,  . Select for details." data-product-id="893878847" data-global-id="01JDMX7PQMAXAV1TKHS64PESY3" class="item-overlay" style="display: block; position: absolute; left: 691.886px; top: 39.9791px; width: 338.31px; height: 386.35px;"></button><button aria-label="GREEN GIANT VEGETABLES, 400-750 G, PC Optimum Get 1,000 pts when you buy 2 = $1 Value, SAVE UP TO 50¢, $3.99 . Select for details." data-product-id="893878853" data-global-id="01JDMX7PQMZXS9WW4F2DC86XJ5" class="item-overlay" style="display: block; position: absolute; left: 31.0029px; top: 435.298px; width: 336.427px; height: 383.782px;"></button><button aria-label="STARBUCKS GROUND COFFEE 283-340 G, K-CUPS 10'S, COLD BREW 946 ML, HOT CHOCOLATE 240-300 G OR INSTANT COFFEE 90 G, PC Optimum Get 2,000 pts = $2 Value, $10.99 . Select for details." data-product-id="893878858" data-global-id="01JDMX7PQMNC10GPV7F3E4T6R5" class="item-overlay" style="display: block; position: absolute; left: 360.248px; top: 432.583px; width: 326.882px; height: 379.181px;"></button><button aria-label="DANINO DRINKABLE YOGURT, 6X93 ML OR LIBERTÉ, 4X100 G, SAVE UP TO $1, $3.99 . Select for details." data-product-id="893878864" data-global-id="01JDMX7PQN9E7Q52BTYF37MKN1" class="item-overlay" style="display: block; position: absolute; left: 687.029px; top: 429.594px; width: 336.473px; height: 394.149px;"></button><button aria-label="BECEL MARGARINE, 637/850 G, SAVE $2.50, $6.99 . Select for details." data-product-id="893878870" data-global-id="01JDMX7PQNPDBHF4TR33PYK40G" class="item-overlay" style="display: block; position: absolute; left: 29.8626px; top: 825.519px; width: 337.176px; height: 374.529px;"></button><button aria-label="PC® ORANGE JUICE, 2.5 L OR OIKOS TUBS, 650-750 G, SAVE UP TO $1.50, $5.99 . Select for details." data-product-id="893878877" data-global-id="01JDMX7PQNB4QPQY9VXCNWNZNW" class="item-overlay" style="display: block; position: absolute; left: 360.18px; top: 819.473px; width: 325.736px; height: 380.553px;"></button><button aria-label="KELLOGG'S EGGO WAFFLES, 8 UN., PILLSBURY TOASTER STRUDEL, 204-326 G, SAVE $1.98 WHEN YOU BUY 2, 2/ $7 less than 2 $4.49 ea. . Select for details." data-product-id="893878883" data-global-id="01JDMX7PQPSFHWN6NRBX0C6SKJ" class="item-overlay" style="display: block; position: absolute; left: 681.821px; top: 822.164px; width: 339.913px; height: 380.386px;"></button><button aria-label="PC® BELGIAN CHOCOLATE BISCUIT COLLECTION, 500 G, SAVE $5, $13.99 . Select for details." data-product-id="893878889" data-global-id="01JDMX7PQPMZ2849DPMVQ6AP0R" class="item-overlay" style="display: block; position: absolute; left: 30.7722px; top: 1209.14px; width: 336.806px; height: 390.603px;"></button><button aria-label="COFFEEMATE COFFEE ENHANCER, 946 ML, , $5.99 . Select for details." data-product-id="893878895" data-global-id="01JDMX7PQPMGYACVSP14FBJWNP" class="item-overlay" style="display: block; position: absolute; left: 358.647px; top: 1211.56px; width: 328.89px; height: 378.699px;"></button><button aria-label="CHAPMAN'S PREMIUM ICE CREAM, 2 L OR NOVELTIES, 6-20'S, , $5.49 . Select for details." data-product-id="893878900" data-global-id="01JDMX7PQQE5W2KK3VJNHKXT8M" class="item-overlay" style="display: block; position: absolute; left: 681.279px; top: 1213.87px; width: 340.817px; height: 370.824px;"></button><button aria-label="LANTIC GRANULATED SUGAR, 2 KG, , $3.29 . Select for details." data-product-id="893878904" data-global-id="01JDMX7PQQ06WP7CE812S0X5SK" class="item-overlay" style="display: block; position: absolute; left: 32.8574px; top: 1605.58px; width: 330.284px; height: 383.551px;"></button><button aria-label="NO NAME® FRUIT, 300/400 G, SAVE 98¢ WHEN YOU BUY 2, 2/ $6 less than 2 $3.49 ea. . Select for details." data-product-id="893878906" data-global-id="01JDMX7PQQ3118WVZ61GK7ZV0K" class="item-overlay" style="display: block; position: absolute; left: 361.423px; top: 1614.82px; width: 338.889px; height: 381.992px;"></button><button aria-label="OLD DUTCH POTATO CHIPS OR SNACKS OR HUMPTY DUMPTY SNACKS, 200-290 G, , $3.79 . Select for details." data-product-id="893878908" data-global-id="01JDMX7PQRHGHDESDHHWKKC0N0" class="item-overlay" style="display: block; position: absolute; left: 694.545px; top: 1598.69px; width: 316.68px; height: 378.915px;"></button><button aria-label="PC® OR BLUE MENU® ENTRÉES, 2/2.27 KG, SAVE $5, $13.99 . Select for details." data-product-id="893878910" data-global-id="01JDMX7PQR7RKTWN48SD2VJQ1E" class="item-overlay" style="display: block; position: absolute; left: 37.2818px; top: 1992.06px; width: 247.862px; height: 341.48px;"></button><button aria-label="HELLMANN'S MAYONNAISE, 710-890 ML, , $6.99 . Select for details." data-product-id="893878912" data-global-id="01JDMX7PQRXG8N8S4QPS6H7RE5" class="item-overlay" style="display: block; position: absolute; left: 287.681px; top: 1993.45px; width: 245.191px; height: 338.533px;"></button><button aria-label="HEINZ BEANS OR PASTA, 398 ML, SAVE 70¢, $1.29 . Select for details." data-product-id="893878914" data-global-id="01JDMX7PQSAWK7JRQZPSX0N106" class="item-overlay" style="display: block; position: absolute; left: 533.213px; top: 1992.7px; width: 244px; height: 330.821px;"></button><button aria-label="JOHN FRIEDA, MARC ANTHONY OR BATISTE HAIR CARE, , $9 . Select for details." data-product-id="893878916" data-global-id="01JDMX7PQSV57C80WCKSPXB9JS" class="item-overlay" style="display: block; position: absolute; left: 778.441px; top: 1990px; width: 239.403px; height: 351.034px;"></button></div><sfml-flyer-image-a aria-label="BASSÉ MIX, 415-600 G, Members save $2, Members Only Price $5" annotatable="" item-type="flyer-item" item-id="893878833" data-global-id="01JDMX7PQK09B2DPV8R0GA3JW4" href="https://sf.flipp.com/items/1234.sfml" src-rect="1973.5382 35.7116 313.1738 360.6994" label="BASSÉ MIX, 415-600 G, Members save $2, Members Only Price $5" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="NESTLÉ TURTLES, 300/350 G, PC Optimum Get 2,000 pts = $2 Value, $11.99" annotatable="" item-type="flyer-item" item-id="893878840" data-global-id="01JDMX7PQK6SYBAMW1SJEQDTPC" href="https://sf.flipp.com/items/1234.sfml" src-rect="2285.463 33.4677 301.6379999999999 364.5633" label="NESTLÉ TURTLES, 300/350 G, PC Optimum Get 2,000 pts = $2 Value, $11.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="QUAKER INSTANT OATMEAL, 216-430 G, PC Optimum GET 2,000 pts for every $10* spent, =$2 Value, " annotatable="" item-type="flyer-item" item-id="893878847" data-global-id="01JDMX7PQMAXAV1TKHS64PESY3" href="https://sf.flipp.com/items/1234.sfml" src-rect="2589.815 36.9082 312.3600000000001 356.67379999999997" label="QUAKER INSTANT OATMEAL, 216-430 G, PC Optimum GET 2,000 pts for every $10* spent, =$2 Value, " item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="GREEN GIANT VEGETABLES, 400-750 G, PC Optimum Get 1,000 pts when you buy 2 = $1 Value, SAVE UP TO 50¢, $3.99" annotatable="" item-type="flyer-item" item-id="893878853" data-global-id="01JDMX7PQMZXS9WW4F2DC86XJ5" href="https://sf.flipp.com/items/1234.sfml" src-rect="1979.6248 401.862 310.62120000000004 354.30299999999994" label="GREEN GIANT VEGETABLES, 400-750 G, PC Optimum Get 1,000 pts when you buy 2 = $1 Value, SAVE UP TO 50¢, $3.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="STARBUCKS GROUND COFFEE 283-340 G, K-CUPS 10'S, COLD BREW 946 ML, HOT CHOCOLATE 240-300 G OR INSTANT COFFEE 90 G, PC Optimum Get 2,000 pts = $2 Value, $10.99" annotatable="" item-type="flyer-item" item-id="893878858" data-global-id="01JDMX7PQMNC10GPV7F3E4T6R5" href="https://sf.flipp.com/items/1234.sfml" src-rect="2283.615 399.355 301.8090000000002 350.05499999999995" label="STARBUCKS GROUND COFFEE 283-340 G, K-CUPS 10'S, COLD BREW 946 ML, HOT CHOCOLATE 240-300 G OR INSTANT COFFEE 90 G, PC Optimum Get 2,000 pts = $2 Value, $10.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="DANINO DRINKABLE YOGURT, 6X93 ML OR LIBERTÉ, 4X100 G, SAVE UP TO $1, $3.99" annotatable="" item-type="flyer-item" item-id="893878864" data-global-id="01JDMX7PQN9E7Q52BTYF37MKN1" href="https://sf.flipp.com/items/1234.sfml" src-rect="2585.331 396.596 310.66399999999976 363.874" label="DANINO DRINKABLE YOGURT, 6X93 ML OR LIBERTÉ, 4X100 G, SAVE UP TO $1, $3.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="BECEL MARGARINE, 637/850 G, SAVE $2.50, $6.99" annotatable="" item-type="flyer-item" item-id="893878870" data-global-id="01JDMX7PQNPDBHF4TR33PYK40G" href="https://sf.flipp.com/items/1234.sfml" src-rect="1978.572 762.109 311.31300000000033 345.76099999999985" label="BECEL MARGARINE, 637/850 G, SAVE $2.50, $6.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® ORANGE JUICE, 2.5 L OR OIKOS TUBS, 650-750 G, SAVE UP TO $1.50, $5.99" annotatable="" item-type="flyer-item" item-id="893878877" data-global-id="01JDMX7PQNB4QPQY9VXCNWNZNW" href="https://sf.flipp.com/items/1234.sfml" src-rect="2283.553 756.528 300.7510000000002 351.3219999999999" label="PC® ORANGE JUICE, 2.5 L OR OIKOS TUBS, 650-750 G, SAVE UP TO $1.50, $5.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="KELLOGG'S EGGO WAFFLES, 8 UN., PILLSBURY TOASTER STRUDEL, 204-326 G, SAVE $1.98 WHEN YOU BUY 2, 2/ $7 less than 2 $4.49 ea." annotatable="" item-type="flyer-item" item-id="893878883" data-global-id="01JDMX7PQPSFHWN6NRBX0C6SKJ" href="https://sf.flipp.com/items/1234.sfml" src-rect="2580.522 759.012 313.84000000000015 351.1680000000001" label="KELLOGG'S EGGO WAFFLES, 8 UN., PILLSBURY TOASTER STRUDEL, 204-326 G, SAVE $1.98 WHEN YOU BUY 2, 2/ $7 less than 2 $4.49 ea." item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® BELGIAN CHOCOLATE BISCUIT COLLECTION, 500 G, SAVE $5, $13.99" annotatable="" item-type="flyer-item" item-id="893878889" data-global-id="01JDMX7PQPMZ2849DPMVQ6AP0R" href="https://sf.flipp.com/items/1234.sfml" src-rect="1979.4118 1116.26 310.9711999999997 360.5999999999999" label="PC® BELGIAN CHOCOLATE BISCUIT COLLECTION, 500 G, SAVE $5, $13.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="COFFEEMATE COFFEE ENHANCER, 946 ML, , $5.99" annotatable="" item-type="flyer-item" item-id="893878895" data-global-id="01JDMX7PQPMGYACVSP14FBJWNP" href="https://sf.flipp.com/items/1234.sfml" src-rect="2282.137 1118.5 303.663 349.6099999999999" label="COFFEEMATE COFFEE ENHANCER, 946 ML, , $5.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="CHAPMAN'S PREMIUM ICE CREAM, 2 L OR NOVELTIES, 6-20'S, , $5.49" annotatable="" item-type="flyer-item" item-id="893878900" data-global-id="01JDMX7PQQE5W2KK3VJNHKXT8M" href="https://sf.flipp.com/items/1234.sfml" src-rect="2580.022 1120.63 314.6750000000002 342.3399999999999" label="CHAPMAN'S PREMIUM ICE CREAM, 2 L OR NOVELTIES, 6-20'S, , $5.49" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="LANTIC GRANULATED SUGAR, 2 KG, , $3.29" annotatable="" item-type="flyer-item" item-id="893878904" data-global-id="01JDMX7PQQ06WP7CE812S0X5SK" href="https://sf.flipp.com/items/1234.sfml" src-rect="1981.3371 1482.25 304.94989999999984 354.0899999999999" label="LANTIC GRANULATED SUGAR, 2 KG, , $3.29" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="NO NAME® FRUIT, 300/400 G, SAVE 98¢ WHEN YOU BUY 2, 2/ $6 less than 2 $3.49 ea." annotatable="" item-type="flyer-item" item-id="893878906" data-global-id="01JDMX7PQQ3118WVZ61GK7ZV0K" href="https://sf.flipp.com/items/1234.sfml" src-rect="2284.7 1490.78 312.89500000000044 352.6500000000001" label="NO NAME® FRUIT, 300/400 G, SAVE 98¢ WHEN YOU BUY 2, 2/ $6 less than 2 $3.49 ea." item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="OLD DUTCH POTATO CHIPS OR SNACKS OR HUMPTY DUMPTY SNACKS, 200-290 G, , $3.79" annotatable="" item-type="flyer-item" item-id="893878908" data-global-id="01JDMX7PQRHGHDESDHHWKKC0N0" href="https://sf.flipp.com/items/1234.sfml" src-rect="2592.27 1475.89 292.3890000000001 349.80999999999995" label="OLD DUTCH POTATO CHIPS OR SNACKS OR HUMPTY DUMPTY SNACKS, 200-290 G, , $3.79" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® OR BLUE MENU® ENTRÉES, 2/2.27 KG, SAVE $5, $13.99" annotatable="" item-type="flyer-item" item-id="893878910" data-global-id="01JDMX7PQR7RKTWN48SD2VJQ1E" href="https://sf.flipp.com/items/1234.sfml" src-rect="1985.4221 1839.05 228.84989999999993 315.2500000000002" label="PC® OR BLUE MENU® ENTRÉES, 2/2.27 KG, SAVE $5, $13.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="HELLMANN'S MAYONNAISE, 710-890 ML, , $6.99" annotatable="" item-type="flyer-item" item-id="893878912" data-global-id="01JDMX7PQRXG8N8S4QPS6H7RE5" href="https://sf.flipp.com/items/1234.sfml" src-rect="2216.615 1840.33 226.38400000000001 312.5300000000002" label="HELLMANN'S MAYONNAISE, 710-890 ML, , $6.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="HEINZ BEANS OR PASTA, 398 ML, SAVE 70¢, $1.29" annotatable="" item-type="flyer-item" item-id="893878914" data-global-id="01JDMX7PQSAWK7JRQZPSX0N106" href="https://sf.flipp.com/items/1234.sfml" src-rect="2443.313 1839.64 225.28399999999965 305.4100000000001" label="HEINZ BEANS OR PASTA, 398 ML, SAVE 70¢, $1.29" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="JOHN FRIEDA, MARC ANTHONY OR BATISTE HAIR CARE, , $9" annotatable="" item-type="flyer-item" item-id="893878916" data-global-id="01JDMX7PQSV57C80WCKSPXB9JS" href="https://sf.flipp.com/items/1234.sfml" src-rect="2669.7309999999998 1837.14 221.03999999999996 324.06999999999994" label="JOHN FRIEDA, MARC ANTHONY OR BATISTE HAIR CARE, , $9" item-type-number="1"></sfml-flyer-image-a></sfml-flyer-image><sfml-flyer-image impressionable="" width="6339" height="2560" path="flyers/36448b1f-defa-445c-abc9-87c019251443/" resolutions="8 5.33 3.7 2.33 1.55 1" src-rect="2926 0 1463 2560" aspect-ratio="1.7498291182501708" sfml-anchor-id="3" style="width: 100%; height: 1847.82px;"><a wayfinder-anchor="" name="sfml_anchor_3"></a><canvas width="0" height="0"></canvas><div><button aria-label="CANARY MELONS, ATAULFO MANGO OR RED MANGO, , $1.50 lb/ea. . Select for details." data-product-id="893878832" data-global-id="01JDMX7PRCXRJ2XYVFHC6W25Y7" class="item-overlay" style="display: block; position: absolute; left: 371.704px; top: 54.4583px; width: 228.499px; height: 256.097px;"></button><button aria-label="CLEMENTINES, 5 LB, , $9 . Select for details." data-product-id="893878835" data-global-id="01JDMX7PRD8RH79TZC23TBYYHR" class="item-overlay" style="display: block; position: absolute; left: 601.192px; top: 98.746px; width: 216.043px; height: 209.537px;"></button><button aria-label="FARMER'S MARKET™ ENGLISH CUCUMBERS, 3'S, , $5 . Select for details." data-product-id="893878838" data-global-id="01JDMX7PRD3PRY68PMNZFJXY4J" class="item-overlay" style="display: block; position: absolute; left: 815.175px; top: 52.5573px; width: 222.255px; height: 260.609px;"></button><button aria-label="ASPARAGUS ASPARAGUS, , $6 lb . Select for details." data-product-id="893878841" data-global-id="01JDMX7PRDZYPR7R6CSYHN5VX6" class="item-overlay" style="display: block; position: absolute; left: 374.08px; top: 327.588px; width: 218.688px; height: 212.021px;"></button><button aria-label="PLANTERS SALTED MIXED NUTS, 225 G, , $3 . Select for details." data-product-id="893878758" data-global-id="01JDMX7PR6J9VEKRXC9Z3MEDWV" class="item-overlay" style="display: block; position: absolute; left: 22.181px; top: 340.357px; width: 301.05px; height: 267.558px;"></button><button aria-label="GREENHOUSE BEEFSTEAK TOMATOES OR LONG EGGPLANT, , $3 lb . Select for details." data-product-id="893878843" data-global-id="01JDMX7PRDRVKKCHM0ABTXF8KG" class="item-overlay" style="display: block; position: absolute; left: 592.816px; top: 323.535px; width: 217.158px; height: 219.125px;"></button><button aria-label="PC® LITTLE GEMS™ MINI MIXED, RED MINI OR YELLOW MINI POTATOES, 680 G, , $4 . Select for details." data-product-id="893878845" data-global-id="01JDMX7PRDNB0J22XECN4Q53XT" class="item-overlay" style="display: block; position: absolute; left: 815.123px; top: 322.957px; width: 219.035px; height: 218.414px;"></button><button aria-label="WONDERFUL PISTACHIOS, 225 G, , $3 . Select for details." data-product-id="893878760" data-global-id="01JDMX7PR7EBPFJS16PWSVV07Z" class="item-overlay" style="display: block; position: absolute; left: 21.6349px; top: 604.799px; width: 302.991px; height: 250.363px;"></button><button aria-label="FRENCH BEANS, 400 G, , $6 . Select for details." data-product-id="893878848" data-global-id="01JDMX7PREVT8HBNZX6GWMHRJK" class="item-overlay" style="display: block; position: absolute; left: 374.411px; top: 546.134px; width: 168.618px; height: 215.834px;"></button><button aria-label="RENÉE'S REFRIGERATED SALAD DRESSING OR VINAIGRETTE, 350/355 ML, PC Optimum Get 1,000 pts when you buy 2 = $1 Value, 2/ $12 less than 2 $6.50 ea. . Select for details." data-product-id="893878851" data-global-id="01JDMX7PRE88ZXYB2AERRR8P8J" class="item-overlay" style="display: block; position: absolute; left: 546.624px; top: 547.467px; width: 160.211px; height: 217.562px;"></button><button aria-label="EXTRA LARGE GREEN SEEDLESS GRAPES OR PC® ADORA OR RED SEEDLESS GRAPES, , $4.50 lb . Select for details." data-product-id="893878854" data-global-id="01JDMX7PREDHMAY1X3VJFJJBYB" class="item-overlay" style="display: block; position: absolute; left: 708.39px; top: 558.943px; width: 160.669px; height: 210.546px;"></button><button aria-label="LARGE SALADS, 498-926 G, , $10 - $12.00 . Select for details." data-product-id="893878857" data-global-id="01JDMX7PRE3QFKBG64PA3GGC7X" class="item-overlay" style="display: block; position: absolute; left: 871.164px; top: 558.886px; width: 161.279px; height: 219.996px;"></button><button aria-label="INSIDE ROUND ROAST, , $8.99 lb . Select for details." data-product-id="893878860" data-global-id="01JDMX7PRE211Y6RCVZ689J4PT" class="item-overlay" style="display: block; position: absolute; left: 372.674px; top: 833.434px; width: 223.676px; height: 222.301px;"></button><button aria-label="PC® OR BLUE MENU® ENGLISH MUFFINS, 6'S, , $1.50 . Select for details." data-product-id="893878762" data-global-id="01JDMX7PR7KV1806PH5H26GPH3" class="item-overlay" style="display: block; position: absolute; left: 28.0533px; top: 858.36px; width: 302.965px; height: 261.795px;"></button><button aria-label="CHICKEN BREASTS, , $4.49 lb . Select for details." data-product-id="893878863" data-global-id="01JDMX7PRFWN2NPSZFYXJ8K823" class="item-overlay" style="display: block; position: absolute; left: 596.465px; top: 844.125px; width: 224.279px; height: 219.111px;"></button><button aria-label="MARINATED PORK TENDERLOIN, , $5.99 lb . Select for details." data-product-id="893878866" data-global-id="01JDMX7PRFWDZ2HMZGNN75QZ5X" class="item-overlay" style="display: block; position: absolute; left: 817.264px; top: 804.465px; width: 219.102px; height: 257.565px;"></button><button aria-label="SANPELLEGRINO NATURALI OR ITALIAN SPARKING DRINKS LIGHT SPARKLING WATER, 6X330 ML, , $5 . Select for details." data-product-id="893878764" data-global-id="01JDMX7PR7HY98733XJQ7HN98V" class="item-overlay" style="display: block; position: absolute; left: 19.772px; top: 1123.17px; width: 307.492px; height: 256.035px;"></button><button aria-label="EXTRA LEAN GROUND BEEF, , $8.49 lb . Select for details." data-product-id="893878868" data-global-id="01JDMX7PRF2DWZPCRXH9TZJJXC" class="item-overlay" style="display: block; position: absolute; left: 372.139px; top: 1054.23px; width: 224.498px; height: 231.39px;"></button><button aria-label="JOHNSONVILLE FRESH PORK SAUSAGE, 250-500 G, , $7 . Select for details." data-product-id="893878871" data-global-id="01JDMX7PRF3J4HV3EYEPTEMJQ4" class="item-overlay" style="display: block; position: absolute; left: 597.627px; top: 1061.3px; width: 221.144px; height: 220.258px;"></button><button aria-label="CHICKEN LEGS, , $3.99 lb . Select for details." data-product-id="893878873" data-global-id="01JDMX7PRG553TSP3B36X9TPYZ" class="item-overlay" style="display: block; position: absolute; left: 820.21px; top: 1066.54px; width: 215.21px; height: 221.731px;"></button><button aria-label="CHRISTIE MINI COOKIES OR MINI SNACK PACKS, 150-200 G, , Members Only Price $2 . Select for details." data-product-id="893878767" data-global-id="01JDMX7PR716MZ9JPEZKYG3K9R" class="item-overlay" style="display: block; position: absolute; left: 19.5774px; top: 1379px; width: 307.762px; height: 301.022px;"></button><button aria-label="PC® FREE FROM® LEAN GROUND LAMB, 454 G, , $15 . Select for details." data-product-id="893878876" data-global-id="01JDMX7PRGWGB32YW4ETN9VRRF" class="item-overlay" style="display: block; position: absolute; left: 374.861px; top: 1294.41px; width: 167.729px; height: 234.999px;"></button><button aria-label="PC® NATURALLY SMOKED BACON, 375-500 G, , $7 . Select for details." data-product-id="893878879" data-global-id="01JDMX7PRGDPZS0CZN5B2Y4H1Q" class="item-overlay" style="display: block; position: absolute; left: 541.085px; top: 1298.47px; width: 166.089px; height: 224.532px;"></button><button aria-label="PC® WINGS, 700-907 G, , $17 . Select for details." data-product-id="893878882" data-global-id="01JDMX7PRGBS4MA2RAP00BWAZ2" class="item-overlay" style="display: block; position: absolute; left: 709.026px; top: 1301.72px; width: 163.284px; height: 223.781px;"></button><button aria-label="ST-HUBERT OR SWISS CHALET PIES, 650-800 G, , $11 . Select for details." data-product-id="893878885" data-global-id="01JDMX7PRH6VW2YK2HTCM4KW34" class="item-overlay" style="display: block; position: absolute; left: 873.012px; top: 1286.63px; width: 168.514px; height: 242.781px;"></button><button aria-label="SEAFOOD CHOWDER MIX OR WILLY KRAUCH'S SMOKED ATLANTIC SALMON, 115 G, , $8.99 lb/ea. . Select for details." data-product-id="893878888" data-global-id="01JDMX7PRHPSR2Q30A7NPCEEMX" class="item-overlay" style="display: block; position: absolute; left: 373.066px; top: 1547.42px; width: 171.687px; height: 251.465px;"></button><button aria-label="SEAQUEST® CRAB OR LOBSTER FLAVOURED POLLOCK FLAKES OR CHUNKS, 227 G, , $2.99 . Select for details." data-product-id="893878890" data-global-id="01JDMX7PRHYVJBJA45R3ZHX680" class="item-overlay" style="display: block; position: absolute; left: 541.77px; top: 1546.32px; width: 165.036px; height: 252.007px;"></button><button aria-label="SEAQUEST® BAY SCALLOPS, 100-150 PER LB 400 G OR CALAMARI RINGS, 340 G, , $7.49 . Select for details." data-product-id="893878893" data-global-id="01JDMX7PRH2N90F21YZQKHACK0" class="item-overlay" style="display: block; position: absolute; left: 707.182px; top: 1533.99px; width: 165.821px; height: 263.917px;"></button><button aria-label="PC® SMOKED SALMON, 125/150 G, , $10.99 . Select for details." data-product-id="893878897" data-global-id="01JDMX7PRHW5JH271QQWPV5S46" class="item-overlay" style="display: block; position: absolute; left: 870.304px; top: 1529.75px; width: 163.771px; height: 267.65px;"></button></div><sfml-flyer-image-a aria-label="CANARY MELONS, ATAULFO MANGO OR RED MANGO, , $1.50 lb/ea." annotatable="" item-type="flyer-item" item-id="893878832" data-global-id="01JDMX7PRCXRJ2XYVFHC6W25Y7" href="https://sf.flipp.com/items/1234.sfml" src-rect="3440.9648 75.4401 316.56619999999975 354.76689999999996" label="CANARY MELONS, ATAULFO MANGO OR RED MANGO, , $1.50 lb/ea." item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="CLEMENTINES, 5 LB, , $9" annotatable="" item-type="flyer-item" item-id="893878835" data-global-id="01JDMX7PRD8RH79TZC23TBYYHR" href="https://sf.flipp.com/items/1234.sfml" src-rect="3758.902 136.791 299.30999999999995 290.26800000000003" label="CLEMENTINES, 5 LB, , $9" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="FARMER'S MARKET™ ENGLISH CUCUMBERS, 3'S, , $5" annotatable="" item-type="flyer-item" item-id="893878838" data-global-id="01JDMX7PRD3PRY68PMNZFJXY4J" href="https://sf.flipp.com/items/1234.sfml" src-rect="4055.357 72.8066 307.91600000000017 361.0164" label="FARMER'S MARKET™ ENGLISH CUCUMBERS, 3'S, , $5" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="ASPARAGUS ASPARAGUS, , $6 lb" annotatable="" item-type="flyer-item" item-id="893878841" data-global-id="01JDMX7PRDZYPR7R6CSYHN5VX6" href="https://sf.flipp.com/items/1234.sfml" src-rect="3444.2566 453.801 302.97339999999986 293.709" label="ASPARAGUS ASPARAGUS, , $6 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PLANTERS SALTED MIXED NUTS, 225 G, , $3" annotatable="" item-type="flyer-item" item-id="893878758" data-global-id="01JDMX7PR6J9VEKRXC9Z3MEDWV" href="https://sf.flipp.com/items/1234.sfml" src-rect="2956.7299 471.49 417.0791000000004 370.64300000000003" label="PLANTERS SALTED MIXED NUTS, 225 G, , $3" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="GREENHOUSE BEEFSTEAK TOMATOES OR LONG EGGPLANT, , $3 lb" annotatable="" item-type="flyer-item" item-id="893878843" data-global-id="01JDMX7PRDRVKKCHM0ABTXF8KG" href="https://sf.flipp.com/items/1234.sfml" src-rect="3747.297 448.187 300.855 303.54999999999995" label="GREENHOUSE BEEFSTEAK TOMATOES OR LONG EGGPLANT, , $3 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® LITTLE GEMS™ MINI MIXED, RED MINI OR YELLOW MINI POTATOES, 680 G, , $4" annotatable="" item-type="flyer-item" item-id="893878845" data-global-id="01JDMX7PRDNB0J22XECN4Q53XT" href="https://sf.flipp.com/items/1234.sfml" src-rect="4055.285 447.386 303.4549999999999 302.565" label="PC® LITTLE GEMS™ MINI MIXED, RED MINI OR YELLOW MINI POTATOES, 680 G, , $4" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="WONDERFUL PISTACHIOS, 225 G, , $3" annotatable="" item-type="flyer-item" item-id="893878760" data-global-id="01JDMX7PR7EBPFJS16PWSVV07Z" href="https://sf.flipp.com/items/1234.sfml" src-rect="2955.9733 837.817 419.7687000000001 346.8230000000001" label="WONDERFUL PISTACHIOS, 225 G, , $3" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="FRENCH BEANS, 400 G, , $6" annotatable="" item-type="flyer-item" item-id="893878848" data-global-id="01JDMX7PREVT8HBNZX6GWMHRJK" href="https://sf.flipp.com/items/1234.sfml" src-rect="3444.7156 756.549 233.60640000000012 298.991" label="FRENCH BEANS, 400 G, , $6" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="RENÉE'S REFRIGERATED SALAD DRESSING OR VINAIGRETTE, 350/355 ML, PC Optimum Get 1,000 pts when you buy 2 = $1 Value, 2/ $12 less than 2 $6.50 ea." annotatable="" item-type="flyer-item" item-id="893878851" data-global-id="01JDMX7PRE88ZXYB2AERRR8P8J" href="https://sf.flipp.com/items/1234.sfml" src-rect="3683.302 758.396 221.95899999999983 301.384" label="RENÉE'S REFRIGERATED SALAD DRESSING OR VINAIGRETTE, 350/355 ML, PC Optimum Get 1,000 pts when you buy 2 = $1 Value, 2/ $12 less than 2 $6.50 ea." item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="EXTRA LARGE GREEN SEEDLESS GRAPES OR PC® ADORA OR RED SEEDLESS GRAPES, , $4.50 lb" annotatable="" item-type="flyer-item" item-id="893878854" data-global-id="01JDMX7PREDHMAY1X3VJFJJBYB" href="https://sf.flipp.com/items/1234.sfml" src-rect="3907.415 774.294 222.59299999999985 291.66600000000005" label="EXTRA LARGE GREEN SEEDLESS GRAPES OR PC® ADORA OR RED SEEDLESS GRAPES, , $4.50 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="LARGE SALADS, 498-926 G, , $10 - $12.00" annotatable="" item-type="flyer-item" item-id="893878857" data-global-id="01JDMX7PRE3QFKBG64PA3GGC7X" href="https://sf.flipp.com/items/1234.sfml" src-rect="4132.925 774.214 223.4389999999994 304.756" label="LARGE SALADS, 498-926 G, , $10 - $12.00" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="INSIDE ROUND ROAST, , $8.99 lb" annotatable="" item-type="flyer-item" item-id="893878860" data-global-id="01JDMX7PRE211Y6RCVZ689J4PT" href="https://sf.flipp.com/items/1234.sfml" src-rect="3442.3086 1154.54 309.88440000000037 307.95000000000005" label="INSIDE ROUND ROAST, , $8.99 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® OR BLUE MENU® ENGLISH MUFFINS, 6'S, , $1.50" annotatable="" item-type="flyer-item" item-id="893878762" data-global-id="01JDMX7PR7KV1806PH5H26GPH3" href="https://sf.flipp.com/items/1234.sfml" src-rect="2964.8655 1189.07 419.7325000000001 362.6600000000001" label="PC® OR BLUE MENU® ENGLISH MUFFINS, 6'S, , $1.50" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="CHICKEN BREASTS, , $4.49 lb" annotatable="" item-type="flyer-item" item-id="893878863" data-global-id="01JDMX7PRFWN2NPSZFYXJ8K823" href="https://sf.flipp.com/items/1234.sfml" src-rect="3752.352 1169.35 310.72000000000025 303.5300000000002" label="CHICKEN BREASTS, , $4.49 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="MARINATED PORK TENDERLOIN, , $5.99 lb" annotatable="" item-type="flyer-item" item-id="893878866" data-global-id="01JDMX7PRFWDZ2HMZGNN75QZ5X" href="https://sf.flipp.com/items/1234.sfml" src-rect="4058.251 1114.41 303.54699999999957 356.79999999999995" label="MARINATED PORK TENDERLOIN, , $5.99 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="SANPELLEGRINO NATURALI OR ITALIAN SPARKING DRINKS LIGHT SPARKLING WATER, 6X330 ML, , $5" annotatable="" item-type="flyer-item" item-id="893878764" data-global-id="01JDMX7PR7HY98733XJQ7HN98V" href="https://sf.flipp.com/items/1234.sfml" src-rect="2953.3925 1555.91 426.0045 354.67999999999984" label="SANPELLEGRINO NATURALI OR ITALIAN SPARKING DRINKS LIGHT SPARKLING WATER, 6X330 ML, , $5" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="EXTRA LEAN GROUND BEEF, , $8.49 lb" annotatable="" item-type="flyer-item" item-id="893878868" data-global-id="01JDMX7PRF2DWZPCRXH9TZJJXC" href="https://sf.flipp.com/items/1234.sfml" src-rect="3441.5682 1460.41 311.02279999999973 320.53999999999996" label="EXTRA LEAN GROUND BEEF, , $8.49 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="JOHNSONVILLE FRESH PORK SAUSAGE, 250-500 G, , $7" annotatable="" item-type="flyer-item" item-id="893878871" data-global-id="01JDMX7PRF3J4HV3EYEPTEMJQ4" href="https://sf.flipp.com/items/1234.sfml" src-rect="3753.963 1470.2 306.37699999999995 305.1199999999999" label="JOHNSONVILLE FRESH PORK SAUSAGE, 250-500 G, , $7" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="CHICKEN LEGS, , $3.99 lb" annotatable="" item-type="flyer-item" item-id="893878873" data-global-id="01JDMX7PRG553TSP3B36X9TPYZ" href="https://sf.flipp.com/items/1234.sfml" src-rect="4062.332 1477.46 298.1550000000002 307.15999999999985" label="CHICKEN LEGS, , $3.99 lb" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="CHRISTIE MINI COOKIES OR MINI SNACK PACKS, 150-200 G, , Members Only Price $2" annotatable="" item-type="flyer-item" item-id="893878767" data-global-id="01JDMX7PR716MZ9JPEZKYG3K9R" href="https://sf.flipp.com/items/1234.sfml" src-rect="2953.1228 1910.3 426.3782000000001 417.0000000000002" label="CHRISTIE MINI COOKIES OR MINI SNACK PACKS, 150-200 G, , Members Only Price $2" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® FREE FROM® LEAN GROUND LAMB, 454 G, , $15" annotatable="" item-type="flyer-item" item-id="893878876" data-global-id="01JDMX7PRGWGB32YW4ETN9VRRF" href="https://sf.flipp.com/items/1234.sfml" src-rect="3445.338 1793.12 232.3739999999998 325.53999999999996" label="PC® FREE FROM® LEAN GROUND LAMB, 454 G, , $15" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® NATURALLY SMOKED BACON, 375-500 G, , $7" annotatable="" item-type="flyer-item" item-id="893878879" data-global-id="01JDMX7PRGDPZS0CZN5B2Y4H1Q" href="https://sf.flipp.com/items/1234.sfml" src-rect="3675.628 1798.74 230.1029999999996 311.0400000000002" label="PC® NATURALLY SMOKED BACON, 375-500 G, , $7" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® WINGS, 700-907 G, , $17" annotatable="" item-type="flyer-item" item-id="893878882" data-global-id="01JDMX7PRGBS4MA2RAP00BWAZ2" href="https://sf.flipp.com/items/1234.sfml" src-rect="3908.296 1803.25 226.2159999999999 310" label="PC® WINGS, 700-907 G, , $17" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="ST-HUBERT OR SWISS CHALET PIES, 650-800 G, , $11" annotatable="" item-type="flyer-item" item-id="893878885" data-global-id="01JDMX7PRH6VW2YK2HTCM4KW34" href="https://sf.flipp.com/items/1234.sfml" src-rect="4135.486 1782.35 233.46200000000044 336.32000000000016" label="ST-HUBERT OR SWISS CHALET PIES, 650-800 G, , $11" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="SEAFOOD CHOWDER MIX OR WILLY KRAUCH'S SMOKED ATLANTIC SALMON, 115 G, , $8.99 lb/ea." annotatable="" item-type="flyer-item" item-id="893878888" data-global-id="01JDMX7PRHPSR2Q30A7NPCEEMX" href="https://sf.flipp.com/items/1234.sfml" src-rect="3442.8513 2143.61 237.85770000000002 348.3499999999999" label="SEAFOOD CHOWDER MIX OR WILLY KRAUCH'S SMOKED ATLANTIC SALMON, 115 G, , $8.99 lb/ea." item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="SEAQUEST® CRAB OR LOBSTER FLAVOURED POLLOCK FLAKES OR CHUNKS, 227 G, , $2.99" annotatable="" item-type="flyer-item" item-id="893878890" data-global-id="01JDMX7PRHYVJBJA45R3ZHX680" href="https://sf.flipp.com/items/1234.sfml" src-rect="3676.577 2142.09 228.64300000000003 349.0999999999999" label="SEAQUEST® CRAB OR LOBSTER FLAVOURED POLLOCK FLAKES OR CHUNKS, 227 G, , $2.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="SEAQUEST® BAY SCALLOPS, 100-150 PER LB 400 G OR CALAMARI RINGS, 340 G, , $7.49" annotatable="" item-type="flyer-item" item-id="893878893" data-global-id="01JDMX7PRH2N90F21YZQKHACK0" href="https://sf.flipp.com/items/1234.sfml" src-rect="3905.742 2125.01 229.73099999999977 365.5999999999999" label="SEAQUEST® BAY SCALLOPS, 100-150 PER LB 400 G OR CALAMARI RINGS, 340 G, , $7.49" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® SMOKED SALMON, 125/150 G, , $10.99" annotatable="" item-type="flyer-item" item-id="893878897" data-global-id="01JDMX7PRHW5JH271QQWPV5S46" href="https://sf.flipp.com/items/1234.sfml" src-rect="4131.733 2119.14 226.89099999999962 370.77" label="PC® SMOKED SALMON, 125/150 G, , $10.99" item-type-number="1"></sfml-flyer-image-a></sfml-flyer-image><sfml-flyer-image impressionable="" width="6339" height="2560" path="flyers/36448b1f-defa-445c-abc9-87c019251443/" resolutions="8 5.33 3.7 2.33 1.55 1" src-rect="4389 0 975 2560" aspect-ratio="2.6256410256410256" sfml-anchor-id="4" style="width: 100%; height: 2772.68px;"><a wayfinder-anchor="" name="sfml_anchor_4"></a><canvas width="0" height="0"></canvas><div><button aria-label="LA BAGUETTERIE DEMI CIABATTA, 450 G, , $3.50 . Select for details." data-product-id="893878783" data-global-id="01JDMX7PQTTP189B36TGKEDKBX" class="item-overlay" style="display: block; position: absolute; left: 33.4431px; top: 100.641px; width: 501.525px; height: 371.022px;"></button><button aria-label="PC® FRUITCAKE SLICED FRUITCAKE SLICED, 210 G, , $6 . Select for details." data-product-id="893878785" data-global-id="01JDMX7PQTVEN4ZKRB2AFERN9V" class="item-overlay" style="display: block; position: absolute; left: 537.33px; top: 76.9824px; width: 498.583px; height: 388.415px;"></button><button aria-label="FARMER'S MARKET™ HOMESTYLE TARTS, 6/12'S, , $7.49 . Select for details." data-product-id="893878787" data-global-id="01JDMX7PQTJYT0R3VNCW8RZT95" class="item-overlay" style="display: block; position: absolute; left: 35.3517px; top: 468.267px; width: 500.403px; height: 345.406px;"></button><button aria-label="FARMER'S MARKET™ MINI DOUGHNUTS, 552/600 G, , $4.99 . Select for details." data-product-id="893878789" data-global-id="01JDMX7PQTQXAYAGECE0Z5HX8B" class="item-overlay" style="display: block; position: absolute; left: 540.73px; top: 465.316px; width: 490.093px; height: 352.345px;"></button><button aria-label="WONDER OR D'ITALIANO BREAD OR BUNS, , Buy 2 or More $3.50 less than 2 $3.99 ea. . Select for details." data-product-id="893878791" data-global-id="01JDMX7PQV09T1M30TBMQKRMQG" class="item-overlay" style="display: block; position: absolute; left: 23.8497px; top: 811.521px; width: 509.689px; height: 341.397px;"></button><button aria-label="PC® OR BLUE MENU® ORGANICS OR PROTEIN TORTILLAS, 342-650 G, , 2/ $8 less than 2 $4.29 ea. . Select for details." data-product-id="893878793" data-global-id="01JDMX7PQV04NV6T89RE56NP4N" class="item-overlay" style="display: block; position: absolute; left: 536.055px; top: 814.807px; width: 501.658px; height: 334.926px;"></button><button aria-label="18 PIECE BONELESS BITES, 684 G, , $16 . Select for details." data-product-id="893878794" data-global-id="01JDMX7PQVYZ7RC6FMS0R3XD23" class="item-overlay" style="display: block; position: absolute; left: 34.3152px; top: 1224.54px; width: 490.045px; height: 359.439px;"></button><button aria-label="BOURSIN SOFT CHEESE, 130-220 G, , $5.99 . Select for details." data-product-id="893878796" data-global-id="01JDMX7PQWJSEYKXJTXXXCMG5Y" class="item-overlay" style="display: block; position: absolute; left: 525.152px; top: 1206.69px; width: 499.261px; height: 375.601px;"></button><button aria-label="SANDWICH OR WRAP PLATTERS, 1.2-1.7 KG, PC Optimum Get 5,000 pts = $5 Value, $25 . Select for details." data-product-id="893878798" data-global-id="01JDMX7PQWQ8SBVBSC55DQZJB5" class="item-overlay" style="display: block; position: absolute; left: 32.6664px; top: 1594.84px; width: 495.954px; height: 344.751px;"></button><button aria-label="PC® GOAT CHEESE, 140 G, , 2/ $12 less than 2 $6.99 ea. . Select for details." data-product-id="893878801" data-global-id="01JDMX7PQWXG5396GJJ5EYWCTD" class="item-overlay" style="display: block; position: absolute; left: 525.583px; top: 1606.01px; width: 501.987px; height: 330.94px;"></button><button aria-label="CHICKEN, FAJITA, OR SOUVLAKI CHICKEN TACO TRAYS, 1-1.1 KG, , $20 . Select for details." data-product-id="893878804" data-global-id="01JDMX7PQW6F2T6NEMRM42MG24" class="item-overlay" style="display: block; position: absolute; left: 33.1768px; top: 1952.64px; width: 253.38px; height: 336.28px;"></button><button aria-label="CLASSIC ITALIAN STYLE OR PULLED PORK MINI SLIDER BUNS, 12'S, , $16 . Select for details." data-product-id="893878807" data-global-id="01JDMX7PQX2HRDQA87V3C9R547" class="item-overlay" style="display: block; position: absolute; left: 285.704px; top: 1945.54px; width: 241.556px; height: 336.02px;"></button><button aria-label="SCHNEIDERS PEPPERETTES, 250-375 G, Members save $4, Members Only Price $7.99 . Select for details." data-product-id="893878810" data-global-id="01JDMX7PQXX6C8WV75VPT4F4PD" class="item-overlay" style="display: block; position: absolute; left: 532.317px; top: 1941.1px; width: 239.652px; height: 333.193px;"></button><button aria-label="SABRA HUMMUS, 283/482 G, PC Optimum GET 3,500 pts for every $10* spent, =$3.50 Value,  . Select for details." data-product-id="893878813" data-global-id="01JDMX7PQXM9HSJ9917961TH93" class="item-overlay" style="display: block; position: absolute; left: 776.486px; top: 1945.37px; width: 245.667px; height: 345.932px;"></button><button aria-label="SIGNATURE GIFTING BOUQUET, PC Optimum Get 5,000 pts = $5 Value, $24 . Select for details." data-product-id="893878816" data-global-id="01JDMX7PQYF3E2JBTRVAYAM6DV" class="item-overlay" style="display: block; position: absolute; left: 32.1272px; top: 2307.16px; width: 253.79px; height: 374.008px;"></button><button aria-label="DOZEN ROSES IN ASSORTED COLOURS, PC Optimum Get 5,000 pts = $5 Value, $24 . Select for details." data-product-id="893878820" data-global-id="01JDMX7PQYTTTAZ9METPS3MEA2" class="item-overlay" style="display: block; position: absolute; left: 284.291px; top: 2305.46px; width: 241.096px; height: 370.9px;"></button><button aria-label="6 INCH POINSETTIA, PC Optimum Get 3,000 pts = $3 Value, $12 . Select for details." data-product-id="893878822" data-global-id="01JDMX7PQYVNYZ9ZAWRAHKMRV4" class="item-overlay" style="display: block; position: absolute; left: 526.178px; top: 2297.86px; width: 247.011px; height: 379.598px;"></button><button aria-label="8 INCH POINSETTIA IN UPGRADED TIN, PC Optimum Get 5,000 pts = $5 Value, $24 . Select for details." data-product-id="893878824" data-global-id="01JDMX7PQYMDYMFBG12PRXVRAX" class="item-overlay" style="display: block; position: absolute; left: 772.162px; top: 2301.17px; width: 254.15px; height: 389.509px;"></button></div><sfml-flyer-image-a aria-label="LA BAGUETTERIE DEMI CIABATTA, 450 G, , $3.50" annotatable="" item-type="flyer-item" item-id="893878783" data-global-id="01JDMX7PQTTP189B36TGKEDKBX" href="https://sf.flipp.com/items/1234.sfml" src-rect="4419.8779 92.9106 463.0560999999998 342.52340000000004" label="LA BAGUETTERIE DEMI CIABATTA, 450 G, , $3.50" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® FRUITCAKE SLICED FRUITCAKE SLICED, 210 G, , $6" annotatable="" item-type="flyer-item" item-id="893878785" data-global-id="01JDMX7PQTVEN4ZKRB2AFERN9V" href="https://sf.flipp.com/items/1234.sfml" src-rect="4885.114 71.0692 460.33899999999994 358.5798" label="PC® FRUITCAKE SLICED FRUITCAKE SLICED, 210 G, , $6" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="FARMER'S MARKET™ HOMESTYLE TARTS, 6/12'S, , $7.49" annotatable="" item-type="flyer-item" item-id="893878787" data-global-id="01JDMX7PQTJYT0R3VNCW8RZT95" href="https://sf.flipp.com/items/1234.sfml" src-rect="4421.6401 432.298 462.01990000000023 318.875" label="FARMER'S MARKET™ HOMESTYLE TARTS, 6/12'S, , $7.49" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="FARMER'S MARKET™ MINI DOUGHNUTS, 552/600 G, , $4.99" annotatable="" item-type="flyer-item" item-id="893878789" data-global-id="01JDMX7PQTQXAYAGECE0Z5HX8B" href="https://sf.flipp.com/items/1234.sfml" src-rect="4888.254 429.574 452.5010000000002 325.281" label="FARMER'S MARKET™ MINI DOUGHNUTS, 552/600 G, , $4.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="WONDER OR D'ITALIANO BREAD OR BUNS, , Buy 2 or More $3.50 less than 2 $3.99 ea." annotatable="" item-type="flyer-item" item-id="893878791" data-global-id="01JDMX7PQV09T1M30TBMQKRMQG" href="https://sf.flipp.com/items/1234.sfml" src-rect="4411.0203 749.186 470.59369999999944 315.17399999999986" label="WONDER OR D'ITALIANO BREAD OR BUNS, , Buy 2 or More $3.50 less than 2 $3.99 ea." item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® OR BLUE MENU® ORGANICS OR PROTEIN TORTILLAS, 342-650 G, , 2/ $8 less than 2 $4.29 ea." annotatable="" item-type="flyer-item" item-id="893878793" data-global-id="01JDMX7PQV04NV6T89RE56NP4N" href="https://sf.flipp.com/items/1234.sfml" src-rect="4883.937 752.22 463.1790000000001 309.20000000000005" label="PC® OR BLUE MENU® ORGANICS OR PROTEIN TORTILLAS, 342-650 G, , 2/ $8 less than 2 $4.29 ea." item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="18 PIECE BONELESS BITES, 684 G, , $16" annotatable="" item-type="flyer-item" item-id="893878794" data-global-id="01JDMX7PQVYZ7RC6FMS0R3XD23" href="https://sf.flipp.com/items/1234.sfml" src-rect="4420.6831 1130.48 452.45589999999993 331.8299999999999" label="18 PIECE BONELESS BITES, 684 G, , $16" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="BOURSIN SOFT CHEESE, 130-220 G, , $5.99" annotatable="" item-type="flyer-item" item-id="893878796" data-global-id="01JDMX7PQWJSEYKXJTXXXCMG5Y" href="https://sf.flipp.com/items/1234.sfml" src-rect="4873.87 1114 460.96500000000015 346.75" label="BOURSIN SOFT CHEESE, 130-220 G, , $5.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="SANDWICH OR WRAP PLATTERS, 1.2-1.7 KG, PC Optimum Get 5,000 pts = $5 Value, $25" annotatable="" item-type="flyer-item" item-id="893878798" data-global-id="01JDMX7PQWQ8SBVBSC55DQZJB5" href="https://sf.flipp.com/items/1234.sfml" src-rect="4419.1607 1472.34 457.91229999999996 318.27" label="SANDWICH OR WRAP PLATTERS, 1.2-1.7 KG, PC Optimum Get 5,000 pts = $5 Value, $25" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® GOAT CHEESE, 140 G, , 2/ $12 less than 2 $6.99 ea." annotatable="" item-type="flyer-item" item-id="893878801" data-global-id="01JDMX7PQWXG5396GJJ5EYWCTD" href="https://sf.flipp.com/items/1234.sfml" src-rect="4874.268 1482.65 463.48199999999997 305.52" label="PC® GOAT CHEESE, 140 G, , 2/ $12 less than 2 $6.99 ea." item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="CHICKEN, FAJITA, OR SOUVLAKI CHICKEN TACO TRAYS, 1-1.1 KG, , $20" annotatable="" item-type="flyer-item" item-id="893878804" data-global-id="01JDMX7PQW6F2T6NEMRM42MG24" href="https://sf.flipp.com/items/1234.sfml" src-rect="4419.632 1802.65 233.94500000000062 310.4499999999998" label="CHICKEN, FAJITA, OR SOUVLAKI CHICKEN TACO TRAYS, 1-1.1 KG, , $20" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="CLASSIC ITALIAN STYLE OR PULLED PORK MINI SLIDER BUNS, 12'S, , $16" annotatable="" item-type="flyer-item" item-id="893878807" data-global-id="01JDMX7PQX2HRDQA87V3C9R547" href="https://sf.flipp.com/items/1234.sfml" src-rect="4652.789 1796.1 223.02800000000025 310.21000000000004" label="CLASSIC ITALIAN STYLE OR PULLED PORK MINI SLIDER BUNS, 12'S, , $16" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="SCHNEIDERS PEPPERETTES, 250-375 G, Members save $4, Members Only Price $7.99" annotatable="" item-type="flyer-item" item-id="893878810" data-global-id="01JDMX7PQXX6C8WV75VPT4F4PD" href="https://sf.flipp.com/items/1234.sfml" src-rect="4880.486 1792 221.27000000000044 307.5999999999999" label="SCHNEIDERS PEPPERETTES, 250-375 G, Members save $4, Members Only Price $7.99" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="SABRA HUMMUS, 283/482 G, PC Optimum GET 3,500 pts for every $10* spent, =$3.50 Value, " annotatable="" item-type="flyer-item" item-id="893878813" data-global-id="01JDMX7PQXM9HSJ9917961TH93" href="https://sf.flipp.com/items/1234.sfml" src-rect="5105.926 1795.94 226.8229999999994 319.3600000000001" label="SABRA HUMMUS, 283/482 G, PC Optimum GET 3,500 pts for every $10* spent, =$3.50 Value, " item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="SIGNATURE GIFTING BOUQUET, PC Optimum Get 5,000 pts = $5 Value, $24" annotatable="" item-type="flyer-item" item-id="893878816" data-global-id="01JDMX7PQYF3E2JBTRVAYAM6DV" href="https://sf.flipp.com/items/1234.sfml" src-rect="4418.6629 2129.94 234.3230999999996 345.27999999999975" label="SIGNATURE GIFTING BOUQUET, PC Optimum Get 5,000 pts = $5 Value, $24" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="DOZEN ROSES IN ASSORTED COLOURS, PC Optimum Get 5,000 pts = $5 Value, $24" annotatable="" item-type="flyer-item" item-id="893878820" data-global-id="01JDMX7PQYTTTAZ9METPS3MEA2" href="https://sf.flipp.com/items/1234.sfml" src-rect="4651.485 2128.37 222.60300000000007 342.4100000000003" label="DOZEN ROSES IN ASSORTED COLOURS, PC Optimum Get 5,000 pts = $5 Value, $24" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="6 INCH POINSETTIA, PC Optimum Get 3,000 pts = $3 Value, $12" annotatable="" item-type="flyer-item" item-id="893878822" data-global-id="01JDMX7PQYVNYZ9ZAWRAHKMRV4" href="https://sf.flipp.com/items/1234.sfml" src-rect="4874.818 2121.36 228.0639999999994 350.44000000000005" label="6 INCH POINSETTIA, PC Optimum Get 3,000 pts = $3 Value, $12" item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="8 INCH POINSETTIA IN UPGRADED TIN, PC Optimum Get 5,000 pts = $5 Value, $24" annotatable="" item-type="flyer-item" item-id="893878824" data-global-id="01JDMX7PQYMDYMFBG12PRXVRAX" href="https://sf.flipp.com/items/1234.sfml" src-rect="5101.934 2124.41 234.65599999999995 359.59000000000015" label="8 INCH POINSETTIA IN UPGRADED TIN, PC Optimum Get 5,000 pts = $5 Value, $24" item-type-number="1"></sfml-flyer-image-a></sfml-flyer-image><sfml-flyer-image impressionable="" width="6339" height="2560" path="flyers/36448b1f-defa-445c-abc9-87c019251443/" resolutions="8 5.33 3.7 2.33 1.55 1" src-rect="5364 0 975 2560" aspect-ratio="2.6256410256410256" sfml-anchor-id="5" style="width: 100%; height: 2772.68px;"><a wayfinder-anchor="" name="sfml_anchor_5"></a><canvas width="0" height="0"></canvas><div><button aria-label="FRESH FRUITS OR VEGETABLES, PC Optimum 6,000 points When you spend $40 or more on fresh fruits or vegetables,  . Select for details." data-product-id="893878740" data-global-id="01JDMX7PRPD2ZXSF9YHFGWEGY7" class="item-overlay" style="display: block; position: absolute; left: 60px; top: 1298.15px; width: 310.667px; height: 456.05px;"></button><button aria-label="MEALKITS, SANDWICHES, PREPACKAGED SALADS, COLD CASE SALADS, SOUPS, PIZZA, QUICHES, PIES OR WINGS, PC Optimum 6,000 pts When you spend $30 or more,  . Select for details." data-product-id="893878746" data-global-id="01JDMX7PRQD8V7R71YKX053G2R" class="item-overlay" style="display: block; position: absolute; left: 370.667px; top: 1298.15px; width: 310.667px; height: 456.05px;"></button><button aria-label="LUNCHABLES, ANY VARIETY, $1 off,  . Select for details." data-product-id="893878752" data-global-id="01JDMX7PRQ5QVKWCJNVPGT04BA" class="item-overlay" style="display: block; position: absolute; left: 681.333px; top: 1298.15px; width: 310.667px; height: 456.05px;"></button><button aria-label="PC® CHOCOLATE BARS, 300 g, PC Optimum 1,000 pts,  . Select for details." data-product-id="893878742" data-global-id="01JDMX7PRP4EN2H5A06P6SX5NC" class="item-overlay" style="display: block; position: absolute; left: 60px; top: 1754.2px; width: 310.667px; height: 456.05px;"></button><button aria-label="PC® RISOTTO OR GNOCCHI, 350-400 g, PC Optimum 1,000 pts,  . Select for details." data-product-id="893878748" data-global-id="01JDMX7PRQBANK0MEACP7F3DRB" class="item-overlay" style="display: block; position: absolute; left: 370.667px; top: 1754.2px; width: 310.667px; height: 456.05px;"></button><button aria-label="PC® CHOPPED SALAD KITS, 282-369 g, PC Optimum 1,000 pts,  . Select for details." data-product-id="893878754" data-global-id="01JDMX7PRR194SHWNREJ091CFK" class="item-overlay" style="display: block; position: absolute; left: 681.333px; top: 1754.2px; width: 310.667px; height: 456.05px;"></button><button aria-label="PC® FOOD STORAGE OR LUNCH SOLUTIONS, PC Optimum 6,000 points When you spend $25 or more on PC® food storage or lunch solutions,  . Select for details." data-product-id="893878744" data-global-id="01JDMX7PRPC533NQS0VCWFXFPZ" class="item-overlay" style="display: block; position: absolute; left: 60px; top: 2210.25px; width: 310.667px; height: 456.061px;"></button><button aria-label="HUGGIES LITTLE SNUGGLERS DIAPERS, $3 off,  . Select for details." data-product-id="893878750" data-global-id="01JDMX7PRQMZ4VAEXMS474XZZ3" class="item-overlay" style="display: block; position: absolute; left: 370.667px; top: 2210.25px; width: 310.667px; height: 456.061px;"></button><button aria-label="PC® CRAFT BREWED 0.5% LOW-ALCOHOL BEER, 4X355 ML, PC Optimum 2,000 points When you buy 2,  . Select for details." data-product-id="893878756" data-global-id="01JDMX7PRRYW9FYZKDWFDZS56R" class="item-overlay" style="display: block; position: absolute; left: 681.333px; top: 2210.25px; width: 310.667px; height: 456.061px;"></button></div><sfml-flyer-image-a aria-label="FRESH FRUITS OR VEGETABLES, PC Optimum 6,000 points When you spend $40 or more on fresh fruits or vegetables, " annotatable="" item-type="flyer-item" item-id="893878740" data-global-id="01JDMX7PRPD2ZXSF9YHFGWEGY7" href="https://sf.flipp.com/items/1234.sfml" src-rect="5419.3977 1198.44 286.83729999999923 421.02" label="FRESH FRUITS OR VEGETABLES, PC Optimum 6,000 points When you spend $40 or more on fresh fruits or vegetables, " item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="MEALKITS, SANDWICHES, PREPACKAGED SALADS, COLD CASE SALADS, SOUPS, PIZZA, QUICHES, PIES OR WINGS, PC Optimum 6,000 pts When you spend $30 or more, " annotatable="" item-type="flyer-item" item-id="893878746" data-global-id="01JDMX7PRQD8V7R71YKX053G2R" href="https://sf.flipp.com/items/1234.sfml" src-rect="5706.235 1198.44 286.83700000000044 421.02" label="MEALKITS, SANDWICHES, PREPACKAGED SALADS, COLD CASE SALADS, SOUPS, PIZZA, QUICHES, PIES OR WINGS, PC Optimum 6,000 pts When you spend $30 or more, " item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="LUNCHABLES, ANY VARIETY, $1 off, " annotatable="" item-type="flyer-item" item-id="893878752" data-global-id="01JDMX7PRQ5QVKWCJNVPGT04BA" href="https://sf.flipp.com/items/1234.sfml" src-rect="5993.072 1198.44 286.83699999999953 421.02" label="LUNCHABLES, ANY VARIETY, $1 off, " item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® CHOCOLATE BARS, 300 g, PC Optimum 1,000 pts, " annotatable="" item-type="flyer-item" item-id="893878742" data-global-id="01JDMX7PRP4EN2H5A06P6SX5NC" href="https://sf.flipp.com/items/1234.sfml" src-rect="5419.3977 1619.46 286.83729999999923 421.02" label="PC® CHOCOLATE BARS, 300 g, PC Optimum 1,000 pts, " item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® RISOTTO OR GNOCCHI, 350-400 g, PC Optimum 1,000 pts, " annotatable="" item-type="flyer-item" item-id="893878748" data-global-id="01JDMX7PRQBANK0MEACP7F3DRB" href="https://sf.flipp.com/items/1234.sfml" src-rect="5706.235 1619.46 286.83700000000044 421.02" label="PC® RISOTTO OR GNOCCHI, 350-400 g, PC Optimum 1,000 pts, " item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® CHOPPED SALAD KITS, 282-369 g, PC Optimum 1,000 pts, " annotatable="" item-type="flyer-item" item-id="893878754" data-global-id="01JDMX7PRR194SHWNREJ091CFK" href="https://sf.flipp.com/items/1234.sfml" src-rect="5993.072 1619.46 286.83699999999953 421.02" label="PC® CHOPPED SALAD KITS, 282-369 g, PC Optimum 1,000 pts, " item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® FOOD STORAGE OR LUNCH SOLUTIONS, PC Optimum 6,000 points When you spend $25 or more on PC® food storage or lunch solutions, " annotatable="" item-type="flyer-item" item-id="893878744" data-global-id="01JDMX7PRPC533NQS0VCWFXFPZ" href="https://sf.flipp.com/items/1234.sfml" src-rect="5419.3977 2040.48 286.83729999999923 421.0300000000002" label="PC® FOOD STORAGE OR LUNCH SOLUTIONS, PC Optimum 6,000 points When you spend $25 or more on PC® food storage or lunch solutions, " item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="HUGGIES LITTLE SNUGGLERS DIAPERS, $3 off, " annotatable="" item-type="flyer-item" item-id="893878750" data-global-id="01JDMX7PRQMZ4VAEXMS474XZZ3" href="https://sf.flipp.com/items/1234.sfml" src-rect="5706.235 2040.48 286.83700000000044 421.0300000000002" label="HUGGIES LITTLE SNUGGLERS DIAPERS, $3 off, " item-type-number="1"></sfml-flyer-image-a><sfml-flyer-image-a aria-label="PC® CRAFT BREWED 0.5% LOW-ALCOHOL BEER, 4X355 ML, PC Optimum 2,000 points When you buy 2, " annotatable="" item-type="flyer-item" item-id="893878756" data-global-id="01JDMX7PRRYW9FYZKDWFDZS56R" href="https://sf.flipp.com/items/1234.sfml" src-rect="5993.072 2040.48 286.83699999999953 421.0300000000002" label="PC® CRAFT BREWED 0.5% LOW-ALCOHOL BEER, 4X355 ML, PC Optimum 2,000 points When you buy 2, " item-type-number="1"></sfml-flyer-image-a></sfml-flyer-image></sfml-linear-layout></div><style></style></sfml-storefront></flipp-sfml-component></div><flipp-out-of-publication-tile multi-panel="false" type="publicationSelector" tile-index="1"><div><flipp-publication-selector-tile><div><flipp-publications title-key="more-pubs" parenttag="FLIPP-PUBLICATION-SELECTOR-TILE" selected-publication="6971565" style="display: none; background-color: rgb(255, 255, 255);"><span>There are no weekly ads for this store right now.</span></flipp-publications></div></flipp-publication-selector-tile></div></flipp-out-of-publication-tile><flipp-error-message i18n-msg-header="pub-not-found" i18n-msg-body="return-to-selector" path="publications" i18n-link-text="see-pubs" style="display: none;" msg-header="Publication not found" msg-body="Please click below to return to the publication selector." link-text="See Publications"><div><h2 class="msg-header">Publication not found</h2><p class="msg-body">Please click below to return to the publication selector.</p><a class="flipp-link-button" href="#!/publications">See Publications</a></div></flipp-error-message><footer><flipp-attribution show-component="true"><ul class="flipp-attribution-container"><li><a id="powered-by" target="_blank" href="https://corp.flipp.com" i18n-aria-label="powered-by-link" aria-label="Powered by Flipp. This link opens in a new window."><flipp-translation key="powered-by" parent="FLIPP-ATTRIBUTION">Powered by Flipp</flipp-translation></a><span aria-hidden="true">|</span></li><li><a id="patent" target="_blank" href="https://corp.flipp.com/patents" i18n-aria-label="patent-link" aria-label="Patent. This link opens in a new window."><flipp-translation key="patent" parent="FLIPP-ATTRIBUTION">Patent</flipp-translation></a><span aria-hidden="true">|</span></li><li><a id="privacy" target="_blank" href="https://corp.flipp.com/flipp/privacy" i18n-aria-label="privacy-link" aria-label="Privacy. This link opens in a new window."><flipp-translation key="privacy" parent="FLIPP-ATTRIBUTION">Privacy</flipp-translation></a><span aria-hidden="true">|</span></li><li><a id="terms-of-use" target="_blank" href="https://corp.flipp.com/flipp/terms_of_use" i18n-aria-label="terms-of-use-link" aria-label="Terms of Use. This link opens in a new window."><flipp-translation key="terms-of-use" parent="FLIPP-ATTRIBUTION">Terms of Use</flipp-translation></a><span aria-hidden="true">|</span></li></ul></flipp-attribution></footer></div></flipp-publication-page></flipp-router>
+<script src="blob:https://www.yourindependentgrocer.ca/769c1e87-0786-4247-b813-0a8dc24bf555"></script><script src="blob:https://www.yourindependentgrocer.ca/c0991295-7d3d-42ab-a171-f9ade5572c97"></script><iframe allow="join-ad-interest-group" data-tagging-id="G-F956HL3RWS" data-load-time="1733272144349" height="0" width="0" src="https://td.doubleclick.net/td/ga/rul?tid=G-F956HL3RWS&amp;gacid=67758596.1733272143&amp;gtm=45je4bk0v9134458134za200&amp;dma=0&amp;gcd=13l3l3l3l1l1&amp;npa=0&amp;pscdl=noapi&amp;_ng=1&amp;aip=1&amp;fledge=1&amp;frm=1&amp;tag_exp=101925629~102067555~102067808~102081485&amp;z=115134145" style="display: none; visibility: hidden;"></iframe>
+        
+        </body></html>
